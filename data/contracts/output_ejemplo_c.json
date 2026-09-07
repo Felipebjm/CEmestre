@@ -1,0 +1,32 @@
+{
+  "catalogo": [
+    {
+      "codigo": "CE1106",
+      "nombre": "Paradigmas de programación",
+      "carrera": "Ingeniería en Computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "numeroGrupo": 1,
+          "profesor": "BARBOZA ARTAVIA LUIS",
+          "horario": [
+            { "dia": "MIE", "inicio": "09:30", "fin": "11:20" },
+            { "dia": "VIE", "inicio": "09:30", "fin": "11:20" }
+          ]
+        },
+        {
+          "numeroGrupo": 2,
+          "profesor": "GAMBOA RAMIREZ SANTIAGO",
+          "horario": [
+            { "dia": "MAR", "inicio": "17:00", "fin": "18:50" },
+            { "dia": "JUE", "inicio": "17:00", "fin": "18:50" }
+          ]
+        }
+      ],
+      "requisitos": ["CE1103", "CE1104"],
+      "correquisitos": [],
+      "tieneChoque": false,
+      "puedeMatricular": true
+    }
+  ]
+}
