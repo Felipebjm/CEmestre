@@ -22,8 +22,8 @@
 #define MAX_DIA       5   
 
 /* rutas de los archivos */
-#define ARCHIVO_CATALOGO_ENTRADA   "../../data/clean/catalogo.json"
-#define ARCHIVO_HISTORIAL_ENTRADA  "../../data/student_history/historial.txt"
-#define ARCHIVO_CATALOGO_SALIDA    "../../data/contracts/catalogo_salido.json"
+#define ARCHIVO_CATALOGO_ENTRADA   "../data/clean/catalogo.json"
+#define ARCHIVO_HISTORIAL_ENTRADA  "../data/student_history/historial.txt"
+#define ARCHIVO_CATALOGO_SALIDA    "../data/contracts/catalogo_salido.json"
 
 #endif /* CONSTANTES_H */
