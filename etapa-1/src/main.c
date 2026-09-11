@@ -8,6 +8,8 @@
 #include "../include/requisitos.h"
 #include "../include/exportar.h"
 
+#include "../include/main.h"
+
 
 
 
