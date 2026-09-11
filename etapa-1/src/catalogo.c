@@ -35,7 +35,8 @@ static int cargarHorarios(const char *texto,Grupo *grupo)
             &minutoFin
         );
 
-        if (leidos != 5) {
+        if (leidos != 5)
+        {
             return -1;
         }
 
@@ -49,7 +50,8 @@ static int cargarHorarios(const char *texto,Grupo *grupo)
 
         posicion = strchr(posicion, ']');
 
-        if (posicion == NULL) {
+        if (posicion == NULL)
+        {
             return -1;
         }
 
