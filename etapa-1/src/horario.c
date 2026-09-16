@@ -2,9 +2,9 @@
 
 /*
  * Responsable: Neto
- * TODO: comparar dia + rango de horas de cada bloque para determinar solape.
+ * TODO: comparar dia + rango de horas de 'a' y 'b' para determinar solape.
  */
-int bloquesChocan(const BloqueHorario *a, const BloqueHorario *b) {
+int horariosChocan(const Horario *a, const Horario *b) {
     (void)a;
     (void)b;
     /* TODO: implementar comparación real (mismo día y horas que se solapan) */
@@ -13,7 +13,7 @@ int bloquesChocan(const BloqueHorario *a, const BloqueHorario *b) {
 
 /*
  * TODO: recorrer todos los pares de cursos/grupos del catálogo y usar
- * bloquesChocan() para marcar tieneChoque en cada curso.
+ * horariosChocan() para marcar tieneChoque en cada curso.
  */
 void detectarChoques(Catalogo *catalogo) {
     (void)catalogo;
