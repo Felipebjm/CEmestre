@@ -8,8 +8,6 @@
 #include "../include/requisitos.h"
 #include "../include/exportar.h"
 
-#include "../include/main.h"
-
 
 
 
@@ -25,7 +23,7 @@ int main(int argc, char *argv[])
         (argc > 2) ? argv[2] : ARCHIVO_HISTORIAL_ENTRADA;
 
 
-    // Inicializar estructuras 
+    // Inicializar estructuras
     catalogo.cantidadCursos = 0;
     historial.cantidad = 0;
 
