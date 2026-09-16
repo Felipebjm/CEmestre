@@ -1,0 +1,2245 @@
+{
+  "plan_estudios": [
+    {
+      "semestre": 0,
+      "cursos": [
+        {
+          "codigo": "CI0205",
+          "nombre": "prueba avanzada inglés",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "",
+              "horario": ""
+            }
+          ]
+        },
+        {
+          "codigo": "MA0101",
+          "nombre": "matemática general",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "10",
+              "horario": "MIE[15:00-17:50] VIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[13:00-14:50] MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[18:00-19:50] MAR[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[15:00-17:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MIE[09:30-12:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[16:00-18:50] VIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MIE[13:00-15:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[16:00-17:50] MAR[16:00-18:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[07:30-09:20] VIE[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "SAB[07:30-12:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[09:30-11:20] MAR[09:30-12:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CI0200",
+          "nombre": "examen diagnóstico",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "",
+              "horario": ""
+            }
+          ]
+        },
+        {
+          "codigo": "CI0202",
+          "nombre": "inglés básico",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[17:00-19:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[15:00-17:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "LUN[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "VIE[09:30-12:20]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semestre": 1,
+      "cursos": [
+        {
+          "codigo": "CE1101",
+          "nombre": "introducción a la programación",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CE1104",
+          "nombre": "fundamentos de sistemas computacionales",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [
+            "CE1101"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "MA1102",
+          "nombre": "cálculo diferencial e integral",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "MA0101"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[07:30-10:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "JUE[17:00-18:50] MAR[17:00-19:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "JUE[18:00-19:50] MAR[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "17",
+              "horario": "MIE[16:00-18:50] VIE[16:00-17:50]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "MIE[07:30-10:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "21",
+              "horario": "SAB[07:30-12:20]"
+            },
+            {
+              "numero_grupo": "20",
+              "horario": "MIE[18:00-20:50] VIE[18:00-19:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-12:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[16:00-17:50] MAR[16:00-18:50]"
+            },
+            {
+              "numero_grupo": "19",
+              "horario": "MIE[17:00-19:50] VIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "14",
+              "horario": "MIE[09:30-12:20] VIE[10:30-12:20]"
+            },
+            {
+              "numero_grupo": "16",
+              "horario": "MIE[15:00-17:50] VIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "15",
+              "horario": "MIE[13:00-15:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[10:30-12:20] MAR[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[07:30-09:20] VIE[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[15:00-17:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "13",
+              "horario": "MIE[10:30-12:20] VIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "18",
+              "horario": "MIE[17:00-19:50] VIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "JUE[16:00-17:50] MAR[15:00-17:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[13:00-14:50] MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "22",
+              "horario": "MIE[16:00-18:50] VIE[16:00-17:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "MA1403",
+          "nombre": "matemática discreta",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 4,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[18:00-19:50] MAR[18:00-19:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "QU1102",
+          "nombre": "laboratorio de química básica i",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": [
+            "QU1106"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "JUE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "15",
+              "horario": "VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "JUE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "JUE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "13",
+              "horario": "VIE[07:30-09:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "QU1106",
+          "nombre": "química básica i",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [
+            "QU1102"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "SE1100",
+          "nombre": "actividad cultural i",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "",
+              "horario": ""
+            }
+          ]
+        },
+        {
+          "codigo": "SE1200",
+          "nombre": "actividad deportiva i",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "",
+              "horario": ""
+            }
+          ]
+        },
+        {
+          "codigo": "CI1106",
+          "nombre": "comunicación escrita",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[09:30-12:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CM1103",
+          "nombre": "introducción a la ciencia e ingeniería de los materiales",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "",
+              "horario": ""
+            }
+          ]
+        },
+        {
+          "codigo": "MI2101",
+          "nombre": "dibujo técnico",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "LUN[17:00-20:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MAR[17:00-20:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[13:00-16:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[17:00-20:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "JUE[13:00-16:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "VIE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "VIE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MAR[17:00-20:50]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "VIE[13:00-16:50]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semestre": 2,
+      "cursos": [
+        {
+          "codigo": "CE1103",
+          "nombre": "algoritmos y estructuras de datos i",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "CE1101",
+            "CE1104",
+            "MA1403"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[17:00-18:50] VIE[17:00-18:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "CE1105",
+          "nombre": "principios de modelado en ingeniería",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "CE1104"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[19:00-20:50] MAR[19:00-20:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MIE[17:00-18:50] VIE[17:00-18:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "CI1407",
+          "nombre": "habilidades de comunicación en ingeniería",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "VIE[07:30-10:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CS1502",
+          "nombre": "introducción a la técnica ciencia y tecnología",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "FI1101",
+          "nombre": "física general i",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "MA1102"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "13",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "14",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "17",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "19",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "15",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "18",
+              "horario": "MIE[17:00-18:50] VIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "20",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "FI1201",
+          "nombre": "laboratorio física general i",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 1,
+          "requisitos": [],
+          "correquisitos": [
+            "FI1101"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "11",
+              "horario": "JUE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "27",
+              "horario": "JUE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "23",
+              "horario": "MIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "24",
+              "horario": "MIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "MIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "18",
+              "horario": "VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "22",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "JUE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "14",
+              "horario": "JUE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "16",
+              "horario": "VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "17",
+              "horario": "VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "26",
+              "horario": "JUE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "29",
+              "horario": "MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "15",
+              "horario": "JUE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "19",
+              "horario": "MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "25",
+              "horario": "JUE[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "MA1103",
+          "nombre": "cálculo y álgebra lineal",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "MA1102"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "JUE[18:00-19:50] MAR[18:00-19:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[16:00-17:50] MAR[16:00-17:50]"
+            },
+            {
+              "numero_grupo": "18",
+              "horario": "SAB[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "14",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "16",
+              "horario": "MIE[17:00-18:50] VIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "JUE[18:00-19:50] MAR[18:00-19:50]"
+            },
+            {
+              "numero_grupo": "13",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "19",
+              "horario": "JUE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "17",
+              "horario": "MIE[18:00-19:50] VIE[18:00-19:50]"
+            },
+            {
+              "numero_grupo": "15",
+              "horario": "MIE[16:00-17:50] VIE[16:00-17:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "SE1400",
+          "nombre": "actividad cultural-deportiva",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "",
+              "horario": ""
+            }
+          ]
+        },
+        {
+          "codigo": "CA2125",
+          "nombre": "elementos de computación",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "MA0101"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[19:00-20:50] MAR[19:00-20:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "JUE[19:00-20:50] MAR[19:00-20:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "JUE[19:00-20:50] MAR[19:00-20:50]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "13",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "CI1107",
+          "nombre": "comunicación oral",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 1,
+          "requisitos": [
+            "CI1106"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "LUN[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "LUN[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "LUN[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MAR[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MAR[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MAR[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "MAR[16:00-18:50]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MAR[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "MIE[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "13",
+              "horario": "MIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "14",
+              "horario": "MIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "15",
+              "horario": "MIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "16",
+              "horario": "MIE[16:00-18:50]"
+            },
+            {
+              "numero_grupo": "17",
+              "horario": "MIE[17:00-19:50]"
+            },
+            {
+              "numero_grupo": "18",
+              "horario": "MIE[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "19",
+              "horario": "JUE[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "20",
+              "horario": "JUE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "21",
+              "horario": "JUE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "22",
+              "horario": "JUE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "23",
+              "horario": "JUE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "24",
+              "horario": "JUE[15:00-17:50]"
+            },
+            {
+              "numero_grupo": "25",
+              "horario": "JUE[17:00-19:50]"
+            },
+            {
+              "numero_grupo": "26",
+              "horario": "JUE[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "27",
+              "horario": "VIE[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "28",
+              "horario": "VIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "29",
+              "horario": "VIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "30",
+              "horario": "VIE[17:00-19:50]"
+            },
+            {
+              "numero_grupo": "31",
+              "horario": "VIE[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "32",
+              "horario": "VIE[16:00-18:50]"
+            },
+            {
+              "numero_grupo": "33",
+              "horario": "VIE[09:30-12:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CI1230",
+          "nombre": "inglés I",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 2,
+          "requisitos": [
+            "CI0200",
+            "CI0202"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MAR[15:00-17:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MIE[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "JUE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "JUE[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "VIE[13:00-15:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "QU1104",
+          "nombre": "laboratorio de química básica II",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 1,
+          "requisitos": [
+            "QU1102",
+            "QU1106"
+          ],
+          "correquisitos": [
+            "QU1107"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "MIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "13",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "14",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "15",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "16",
+              "horario": "MIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "17",
+              "horario": "MIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "18",
+              "horario": "MIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "19",
+              "horario": "MIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "21",
+              "horario": "JUE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "22",
+              "horario": "JUE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "23",
+              "horario": "JUE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "24",
+              "horario": "JUE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "26",
+              "horario": "JUE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "27",
+              "horario": "JUE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "28",
+              "horario": "JUE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "29",
+              "horario": "JUE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "31",
+              "horario": "VIE[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "QU1107",
+          "nombre": "química básica II",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "QU1102",
+            "QU1106"
+          ],
+          "correquisitos": [
+            "QU1104"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "12",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "13",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "14",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semestre": 3,
+      "cursos": [
+        {
+          "codigo": "CE2103",
+          "nombre": "algoritmos y estructuras de datos II",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "CE1103",
+            "CE1105"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CS2101",
+          "nombre": "ambiente humano",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 2,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "VIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MIE[15:00-17:50]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "LUN[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "LUN[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MAR[18:00-20:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "EL2113",
+          "nombre": "circuitos eléctricos en corriente continua",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "FI1101",
+            "MA1102"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "4",
+              "horario": "LUN[07:30-09:20] MIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "LUN[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "FH1000",
+          "nombre": "centros de formación humanística",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 0,
+          "requisitos": [],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "",
+              "horario": ""
+            }
+          ]
+        },
+        {
+          "codigo": "FI1102",
+          "nombre": "física general II",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "FI1101"
+          ],
+          "correquisitos": [
+            "MA1102"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "FI1202",
+          "nombre": "laboratorio física general II",
+          "carreras": [
+            "CE",
+            "ME"
+          ],
+          "creditos": 1,
+          "requisitos": [
+            "FI1201"
+          ],
+          "correquisitos": [
+            "FI1102"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MIE[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "MIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[17:00-18:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "MA2104",
+          "nombre": "cálculo superior",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "MA1103"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[18:00-19:50] MAR[18:00-19:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[13:00-14:50] MAR[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "SAB[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[18:00-19:50] VIE[18:00-19:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "CI1231",
+          "nombre": "inglés II",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 2,
+          "requisitos": [
+            "CI1230"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "LUN[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MAR[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MAR[18:00-20:50]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "VIE[09:30-12:20]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "VIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "MIE[16:00-18:50]"
+            },
+            {
+              "numero_grupo": "11",
+              "horario": "MIE[13:00-15:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "CM2103",
+          "nombre": "termodinámica",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "MA1102",
+            "QU1107"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[13:00-16:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "QU2403",
+          "nombre": "química orgánica",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "QU1104",
+            "QU1107"
+          ],
+          "correquisitos": [
+            "QU2404"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "QU2404",
+          "nombre": "laboratorio de química orgánica",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 2,
+          "requisitos": [
+            "QU1104",
+            "QU1107"
+          ],
+          "correquisitos": [
+            "QU2403"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[13:00-16:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[13:00-16:50]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semestre": 4,
+      "cursos": [
+        {
+          "codigo": "CE1106",
+          "nombre": "paradigmas de programación",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "CE2103"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "CE2201",
+          "nombre": "laboratorio de circuitos eléctricos",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 1,
+          "requisitos": [
+            "FI1202"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "LUN[07:30-09:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "EL2114",
+          "nombre": "circuitos eléctricos en corriente alterna",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "EL2113"
+          ],
+          "correquisitos": [
+            "EL2207"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[17:00-18:50] VIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "EL2207",
+          "nombre": "elementos activos",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "EL2113"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MIE[17:00-18:50] VIE[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[15:00-16:50] MAR[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            }
+          ]
+        },
+        {
+          "codigo": "PI2609",
+          "nombre": "probabilidad y estadística",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 2,
+          "requisitos": [
+            "MA2104"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "MIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[07:30-10:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "SO4604",
+          "nombre": "seguridad y salud ocupacional",
+          "carreras": [
+            "CE"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "FI1102"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "2",
+              "horario": "JUE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[07:30-10:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[17:00-19:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MIE[13:00-15:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "VIE[07:30-10:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CM2401",
+          "nombre": "metalurgia física",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "CM2103"
+          ],
+          "correquisitos": [
+            "CM3103"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "MIE[07:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CM2402",
+          "nombre": "laboratorio de metalurgia física",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 1,
+          "requisitos": [
+            "CM1103"
+          ],
+          "correquisitos": [
+            "CM2401"
+          ],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[16:00-17:50]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "VIE[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "CM3103",
+          "nombre": "termodinámica de materiales",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "CM2103"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "MA2105",
+          "nombre": "ecuaciones diferenciales",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "MA1103"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "JUE[07:30-09:20] MAR[07:30-09:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "JUE[09:30-11:20] MAR[09:30-11:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MIE[17:00-18:50] VIE[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "SAB[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "JUE[17:00-18:50] MAR[17:00-18:50]"
+            },
+            {
+              "numero_grupo": "9",
+              "horario": "SAB[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "10",
+              "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "MI2106",
+          "nombre": "estática",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 3,
+          "requisitos": [
+            "FI1101",
+            "FI1201"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "MAR[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MAR[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MAR[13:00-16:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MIE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "6",
+              "horario": "JUE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "7",
+              "horario": "JUE[13:00-16:50]"
+            },
+            {
+              "numero_grupo": "8",
+              "horario": "VIE[07:30-11:20]"
+            }
+          ]
+        },
+        {
+          "codigo": "MI3124",
+          "nombre": "dibujo industrial",
+          "carreras": [
+            "ME"
+          ],
+          "creditos": 4,
+          "requisitos": [
+            "MI2101"
+          ],
+          "correquisitos": [],
+          "grupos": [
+            {
+              "numero_grupo": "1",
+              "horario": "LUN[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "2",
+              "horario": "LUN[17:00-20:50]"
+            },
+            {
+              "numero_grupo": "3",
+              "horario": "MIE[07:30-11:20]"
+            },
+            {
+              "numero_grupo": "4",
+              "horario": "MIE[13:00-16:50]"
+            },
+            {
+              "numero_grupo": "5",
+              "horario": "MAR[13:00-16:50]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

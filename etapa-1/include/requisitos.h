@@ -10,6 +10,6 @@
  */
 
 /* Marca catalogo->cursos[i].puedeMatricular para todos los cursos. */
-void validarRequisitos(Catalogo *catalogo, const HistorialEstudiante *historial);
+void validarRequisitos(Catalogo *catalogo, const CursoAprobado *historial);
 
 #endif /* REQUISITOS_H */
