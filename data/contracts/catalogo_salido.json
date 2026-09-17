@@ -1,0 +1,2097 @@
+{
+	"catalogo":	[{
+			"codigo":	"CI0205",
+			"nombre":	"prueba avanzada inglés",
+			"creditos":	0,
+			"semestre":	0,
+			"carreras":	["CE"],
+			"grupos":	[],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MA0101",
+			"nombre":	"matemática general",
+			"creditos":	2,
+			"semestre":	0,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	10,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"17:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	6,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"18:00",
+							"fin":	"19:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"17:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	8,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI0200",
+			"nombre":	"examen diagnóstico",
+			"creditos":	0,
+			"semestre":	0,
+			"carreras":	["ME"],
+			"grupos":	[],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI0202",
+			"nombre":	"inglés básico",
+			"creditos":	2,
+			"semestre":	0,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"19:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"17:50"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1101",
+			"nombre":	"introducción a la programación",
+			"creditos":	3,
+			"semestre":	1,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1104",
+			"nombre":	"fundamentos de sistemas computacionales",
+			"creditos":	3,
+			"semestre":	1,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	["CE1101"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MA1102",
+			"nombre":	"cálculo diferencial e integral",
+			"creditos":	4,
+			"semestre":	1,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	9,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"19:50"
+						}]
+				}, {
+					"numeroGrupo":	10,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"18:00",
+							"fin":	"19:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	17,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"16:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"16:00",
+							"fin":	"17:50"
+						}]
+				}, {
+					"numeroGrupo":	12,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}],
+			"requisitos":	["MA0101"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MA1403",
+			"nombre":	"matemática discreta",
+			"creditos":	4,
+			"semestre":	1,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	6,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"QU1102",
+			"nombre":	"laboratorio de química básica i",
+			"creditos":	1,
+			"semestre":	1,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	11,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	8,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	15,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	["QU1106"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"QU1106",
+			"nombre":	"química básica i",
+			"creditos":	3,
+			"semestre":	1,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	9,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	7,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	["QU1102"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"SE1100",
+			"nombre":	"actividad cultural i",
+			"creditos":	0,
+			"semestre":	1,
+			"carreras":	["CE", "ME"],
+			"grupos":	[],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"SE1200",
+			"nombre":	"actividad deportiva i",
+			"creditos":	0,
+			"semestre":	1,
+			"carreras":	["CE", "ME"],
+			"grupos":	[],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI1106",
+			"nombre":	"comunicación escrita",
+			"creditos":	2,
+			"semestre":	1,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM1103",
+			"nombre":	"introducción a la ciencia e ingeniería de los materiales",
+			"creditos":	3,
+			"semestre":	1,
+			"carreras":	["ME"],
+			"grupos":	[],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MI2101",
+			"nombre":	"dibujo técnico",
+			"creditos":	3,
+			"semestre":	1,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1103",
+			"nombre":	"algoritmos y estructuras de datos i",
+			"creditos":	4,
+			"semestre":	2,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}],
+			"requisitos":	["CE1101", "CE1104", "MA1403"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1105",
+			"nombre":	"principios de modelado en ingeniería",
+			"creditos":	3,
+			"semestre":	2,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}],
+			"requisitos":	["CE1104"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI1407",
+			"nombre":	"habilidades de comunicación en ingeniería",
+			"creditos":	2,
+			"semestre":	2,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CS1502",
+			"nombre":	"introducción a la técnica ciencia y tecnología",
+			"creditos":	1,
+			"semestre":	2,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"FI1101",
+			"nombre":	"física general i",
+			"creditos":	3,
+			"semestre":	2,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	13,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	8,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	9,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}],
+			"requisitos":	["MA1102"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"FI1201",
+			"nombre":	"laboratorio física general i",
+			"creditos":	1,
+			"semestre":	2,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	11,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	27,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	23,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	24,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	["FI1101"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MA1103",
+			"nombre":	"cálculo y álgebra lineal",
+			"creditos":	4,
+			"semestre":	2,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	11,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	9,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"18:00",
+							"fin":	"19:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"18:00",
+							"fin":	"19:50"
+						}]
+				}, {
+					"numeroGrupo":	7,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"16:00",
+							"fin":	"17:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"16:00",
+							"fin":	"17:50"
+						}]
+				}, {
+					"numeroGrupo":	18,
+					"horario":	[{
+							"dia":	"SAB",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	14,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["MA1102"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"SE1400",
+			"nombre":	"actividad cultural-deportiva",
+			"creditos":	0,
+			"semestre":	2,
+			"carreras":	["CE", "ME"],
+			"grupos":	[],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CA2125",
+			"nombre":	"elementos de computación",
+			"creditos":	3,
+			"semestre":	2,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}],
+			"requisitos":	["MA0101"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI1107",
+			"nombre":	"comunicación oral",
+			"creditos":	1,
+			"semestre":	2,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}],
+			"requisitos":	["CI1106"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI1230",
+			"nombre":	"inglés I",
+			"creditos":	2,
+			"semestre":	2,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}],
+			"requisitos":	["CI0200", "CI0202"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"QU1104",
+			"nombre":	"laboratorio de química básica II",
+			"creditos":	1,
+			"semestre":	2,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	6,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	7,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}],
+			"requisitos":	["QU1102", "QU1106"],
+			"correquisitos":	["QU1107"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"QU1107",
+			"nombre":	"química básica II",
+			"creditos":	3,
+			"semestre":	2,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	6,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["QU1102", "QU1106"],
+			"correquisitos":	["QU1104"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE2103",
+			"nombre":	"algoritmos y estructuras de datos II",
+			"creditos":	4,
+			"semestre":	3,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}],
+			"requisitos":	["CE1103", "CE1105"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CS2101",
+			"nombre":	"ambiente humano",
+			"creditos":	2,
+			"semestre":	3,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"17:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"EL2113",
+			"nombre":	"circuitos eléctricos en corriente continua",
+			"creditos":	4,
+			"semestre":	3,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["FI1101", "MA1102"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"FH1000",
+			"nombre":	"centros de formación humanística",
+			"creditos":	0,
+			"semestre":	3,
+			"carreras":	["CE"],
+			"grupos":	[],
+			"requisitos":	[],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"FI1102",
+			"nombre":	"física general II",
+			"creditos":	3,
+			"semestre":	3,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	9,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	6,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	11,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["FI1101"],
+			"correquisitos":	["MA1102"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"FI1202",
+			"nombre":	"laboratorio física general II",
+			"creditos":	1,
+			"semestre":	3,
+			"carreras":	["CE", "ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	7,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	8,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}],
+			"requisitos":	["FI1201"],
+			"correquisitos":	["FI1102"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MA2104",
+			"nombre":	"cálculo superior",
+			"creditos":	4,
+			"semestre":	3,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"18:00",
+							"fin":	"19:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"18:00",
+							"fin":	"19:50"
+						}]
+				}, {
+					"numeroGrupo":	7,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	6,
+					"horario":	[{
+							"dia":	"SAB",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["MA1103"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI1231",
+			"nombre":	"inglés II",
+			"creditos":	2,
+			"semestre":	3,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"09:30",
+							"fin":	"12:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}],
+			"requisitos":	["CI1230"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM2103",
+			"nombre":	"termodinámica",
+			"creditos":	3,
+			"semestre":	3,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["MA1102", "QU1107"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"QU2403",
+			"nombre":	"química orgánica",
+			"creditos":	3,
+			"semestre":	3,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["QU1104", "QU1107"],
+			"correquisitos":	["QU2404"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"QU2404",
+			"nombre":	"laboratorio de química orgánica",
+			"creditos":	2,
+			"semestre":	3,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["QU1104", "QU1107"],
+			"correquisitos":	["QU2403"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1106",
+			"nombre":	"paradigmas de programación",
+			"creditos":	3,
+			"semestre":	4,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}],
+			"requisitos":	["CE2103"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE2201",
+			"nombre":	"laboratorio de circuitos eléctricos",
+			"creditos":	1,
+			"semestre":	4,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}],
+			"requisitos":	["FI1202"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"EL2114",
+			"nombre":	"circuitos eléctricos en corriente alterna",
+			"creditos":	4,
+			"semestre":	4,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}],
+			"requisitos":	["EL2113"],
+			"correquisitos":	["EL2207"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"EL2207",
+			"nombre":	"elementos activos",
+			"creditos":	4,
+			"semestre":	4,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["EL2113"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"PI2609",
+			"nombre":	"probabilidad y estadística",
+			"creditos":	2,
+			"semestre":	4,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}],
+			"requisitos":	["MA2104"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"SO4604",
+			"nombre":	"seguridad y salud ocupacional",
+			"creditos":	3,
+			"semestre":	4,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"19:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"10:20"
+						}]
+				}],
+			"requisitos":	["FI1102"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM2401",
+			"nombre":	"metalurgia física",
+			"creditos":	3,
+			"semestre":	4,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["CM2103"],
+			"correquisitos":	["CM3103"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM2402",
+			"nombre":	"laboratorio de metalurgia física",
+			"creditos":	1,
+			"semestre":	4,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"16:00",
+							"fin":	"17:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["CM1103"],
+			"correquisitos":	["CM2401"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM3103",
+			"nombre":	"termodinámica de materiales",
+			"creditos":	3,
+			"semestre":	4,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["CM2103"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MA2105",
+			"nombre":	"ecuaciones diferenciales",
+			"creditos":	4,
+			"semestre":	4,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"09:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"SAB",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["MA1103"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MI2106",
+			"nombre":	"estática",
+			"creditos":	3,
+			"semestre":	4,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["FI1101", "FI1201"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MI3124",
+			"nombre":	"dibujo industrial",
+			"creditos":	4,
+			"semestre":	4,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["MI2101"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}]
+}
