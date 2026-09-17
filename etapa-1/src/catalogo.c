@@ -265,16 +265,22 @@ static int cargarCurso(cJSON *objetoCurso,
      */
     cJSON_ArrayForEach(item, grupos)
     {
+        Grupo *destino;
+
         if (curso->cantidadGrupos >= MAX_GRUPOS_POR_CURSO) {
             break;
         }
 
-        if (cargarGrupo(
-                item,
-                &curso->grupos[curso->cantidadGrupos]
-            ) != 0)
-        {
+        destino = &curso->grupos[curso->cantidadGrupos];
+
+        if (cargarGrupo(item, destino) != 0) {
             return -1;
+        }
+
+        if (destino->numeroGrupo == 0 && destino->cantidadHorarios == 0) {
+            /* Curso del plan sin grupo ofertado este semestre: no cuenta
+             * como grupo real. */
+            continue;
         }
 
         curso->cantidadGrupos++;
