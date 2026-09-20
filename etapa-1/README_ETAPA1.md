@@ -39,6 +39,8 @@ Del lado de C se usa la librería [cJSON](https://github.com/DaveGamble/cJSON) p
 
 Ver [`include/structs.h`](./include/structs.h): `Curso`, `Grupo`, `BloqueHorario`, `Catalogo`, `HistorialEstudiante`. Todas las constantes de tamaño están centralizadas en [`include/constantes.h`](./include/constantes.h).
 
+<img width="699" height="667" alt="structs" src="https://github.com/user-attachments/assets/02bc6195-bb02-4567-87dd-901d46497098" />
+
 ## Compilar y ejecutar
 
 ```
