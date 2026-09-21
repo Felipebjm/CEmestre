@@ -9,7 +9,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	false,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"MA0101",
 			"nombre":	"matemática general",
@@ -75,7 +75,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CI0200",
 			"nombre":	"examen diagnóstico",
@@ -165,7 +165,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CE1104",
 			"nombre":	"fundamentos de sistemas computacionales",
@@ -187,7 +187,7 @@
 			"requisitos":	[],
 			"correquisitos":	["CE1101"],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"MA1102",
 			"nombre":	"cálculo diferencial e integral",
@@ -253,7 +253,7 @@
 			"requisitos":	["MA0101"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"MA1403",
 			"nombre":	"matemática discreta",
@@ -319,7 +319,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"QU1102",
 			"nombre":	"laboratorio de química básica i",
@@ -365,7 +365,7 @@
 			"requisitos":	[],
 			"correquisitos":	["QU1106"],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"QU1106",
 			"nombre":	"química básica i",
@@ -431,7 +431,7 @@
 			"requisitos":	[],
 			"correquisitos":	["QU1102"],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"SE1100",
 			"nombre":	"actividad cultural i",
@@ -442,7 +442,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	false,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"SE1200",
 			"nombre":	"actividad deportiva i",
@@ -453,7 +453,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	false,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CI1106",
 			"nombre":	"comunicación escrita",
@@ -600,7 +600,7 @@
 			"requisitos":	["CE1101", "CE1104", "MA1403"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CE1105",
 			"nombre":	"principios de modelado en ingeniería",
@@ -644,7 +644,7 @@
 			"requisitos":	["CE1104"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CI1407",
 			"nombre":	"habilidades de comunicación en ingeniería",
@@ -683,7 +683,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CS1502",
 			"nombre":	"introducción a la técnica ciencia y tecnología",
@@ -729,7 +729,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"FI1101",
 			"nombre":	"física general i",
@@ -914,7 +914,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	false,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CA2125",
 			"nombre":	"elementos de computación",
@@ -1206,7 +1206,7 @@
 			"requisitos":	["CE1103", "CE1105"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CS2101",
 			"nombre":	"ambiente humano",
@@ -1252,7 +1252,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"EL2113",
 			"nombre":	"circuitos eléctricos en corriente continua",
@@ -1314,7 +1314,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	false,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"FI1102",
 			"nombre":	"física general II",

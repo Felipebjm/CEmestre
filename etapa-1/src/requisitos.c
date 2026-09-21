@@ -58,6 +58,12 @@ void validarRequisitos(Catalogo *catalogo, const CursoAprobado *historial)
 
         Curso *curso = &catalogo->cursos[i];
 
+        // Si el curso ya fue aprobado, no se necesita matricular otra vez
+        if (cursoEstaAprobado(historial, curso->codigo)) {
+            curso->puedeMatricular = 0;
+            continue;
+        }
+
         // Primero se revisan los requisitos que deben estar aprobados
         if (!cumpleRequisitos(curso, historial)) {
             curso->puedeMatricular = 0;
