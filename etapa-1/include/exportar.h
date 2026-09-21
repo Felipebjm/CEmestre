@@ -4,7 +4,6 @@
 #include "structs.h"
 
 /*
- * Responsable: Neto
  * Exporta el catálogo completo a un archivo de salida en formato JSON
  * (contrato leído por la Etapa 2 en Racket).
  */

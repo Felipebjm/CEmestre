@@ -4,7 +4,6 @@
 #include "structs.h"
 
 /*
- * Responsable: Luis
  * Determina, para cada curso, si el estudiante cumple los requisitos
  * necesarios para matricularlo según su historial.
  */
