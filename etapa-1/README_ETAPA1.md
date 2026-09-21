@@ -4,22 +4,22 @@
 
 ```
 etapa-1/
-├── include/          # Headers: constantes.h + structs.h + un .h por módulo
-├── src/               # Un .c por responsabilidad (ver división del equipo)
-├── build/             # Archivos objeto (.o), generados por el Makefile
-├── tests/             # Casos de prueba manuales / catálogos de ejemplo
-└── Makefile
+├── include/  # Headers: constantes.h + structs.h + un .h por módulo
+├── src/      # Un .c por responsabilidad (ver división del equipo)
+├── build/    # Archivos objeto (.o), generados por el Makefile
+├── tests/    # Casos de prueba manuales / catálogos de ejemplo
+└── Makefile.mk
 ```
 
 División de responsabilidades:
 
-| Módulo | Archivo | Responsable |
-|---|---|---|
-| Carga de catálogo | `src/catalogo.c` | Felipe |
-| Carga de historial del estudiante | `src/historial.c` | Felipe |
-| Detección de choques de horario | `src/horario.c` | Neto |
-| Exportación a JSON | `src/exportar.c` | Neto |
-| Validación de requisitos/correquisitos | `src/requisitos.c` | Luis |
+| Módulo                                 | Archivo              | Responsable |
+|----------------------------------------|----------------------|-------------|
+| Carga de catálogo                      | `src/catalogo.c`     | Felipe      |
+| Carga de historial del estudiante      | `src/historial.c`    | Felipe      |
+| Detección de choques de horario        | `src/horario.c`      | Neto        |
+| Exportación a JSON                     | `src/exportar.c`     | Neto        |
+| Validación de requisitos/correquisitos | `src/requisitos.c`   | Luis        |
 
 ## Decisiones de diseño
 ### Justificación de decisiones
