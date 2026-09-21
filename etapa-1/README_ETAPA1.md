@@ -27,7 +27,7 @@ División de responsabilidades:
 - El archivo de catálogo es un JSON debido a que se consideró que permite almacenar los datos de los cursos de una forma más natural. Otro factor que influyó en la decisión, fue que se tenía más experiencia trabajando con este formato.
 - Pase a la mayor facilidad de parseo, se descartó que el archivo catálogo fuese un .cvs ya que datos como los horarios o grupos de un curso, no se iban a representar de forma natural.
 ### Caso límite real
-- Se detectaron varios cursos del plan de estudios sin un grupos ofertado (ej. CI0205, SE1100, FH1000), se representaron con cantidadGrupos = 0.
+- Se detectaron varios cursos del plan de estudios sin un grupo ofertado (ej. CI0205, SE1100, FH1000), se representaron con cantidadGrupos = 0.
 
 ## Formato de salida
 
@@ -37,7 +37,7 @@ Del lado de C se usa la librería [cJSON](https://github.com/DaveGamble/cJSON) p
 
 ## Estructuras de datos
 
-Ver [`include/structs.h`](./include/structs.h): `Curso`, `Grupo`, `BloqueHorario`, `Catalogo`, `HistorialEstudiante`. Todas las constantes de tamaño están centralizadas en [`include/constantes.h`](./include/constantes.h).
+Ver [`include/structs.h`](./include/structs.h): `Curso`, `Grupo`, `Horario`, `Catalogo`, `CursoAprobado`. Todas las constantes de tamaño están centralizadas en [`include/constantes.h`](./include/constantes.h).
 
 <img width="699" height="667" alt="structs" src="https://github.com/user-attachments/assets/02bc6195-bb02-4567-87dd-901d46497098" />
 
@@ -45,6 +45,12 @@ Ver [`include/structs.h`](./include/structs.h): `Curso`, `Grupo`, `BloqueHorario
 
 ```
 cd etapa-1
-make
+make -f Makefile.mk
+./cemestre_etapa1
+```
+
+Los argumentos son opcionales. Si no se pasan, el programa usa las rutas por defecto definidas en `include/constantes.h`. También se puede indicar explícitamente
+
+```
 ./cemestre_etapa1 <catalogo_entrada.json> <historial.json> <catalogo_salida.json>
 ```
