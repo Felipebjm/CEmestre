@@ -1,0 +1,22 @@
+{
+  "creditos_minimos": 12,
+  "creditos_maximos": 18,
+  "cursos_interes": [
+    {
+      "codigo_curso": "CE1106",
+      "grupos_interes": [1, 2]
+    },
+    {
+      "codigo_curso": "CI1230",
+      "grupos_interes": [1, 3]
+    },
+    {
+      "codigo_curso": "CI0202",
+      "grupos_interes": [1, 2, 3]
+    },
+    {
+      "codigo_curso": "CI1107",
+      "grupos_interes": [1]
+    }
+  ]
+}
