@@ -1,5 +1,12 @@
 #lang typed/racket
 
+(provide (struct-out Curso)
+         (struct-out Grupo)
+         (struct-out BloqueHorario)
+         (struct-out Preferencias)
+         (struct-out Seleccion)
+         (struct-out Combinacion))
+
 (struct Curso
   ([codigo : String]
    [nombre : String]

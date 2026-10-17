@@ -14,6 +14,8 @@
 ;; Dos grupos chocan si existe al menos un par de bloques entre ambos que chocan entre si.
 (: gruposChocan (-> Grupo Grupo Boolean))
 (define (gruposChocan g1 g2)
-  (for/or ([b1 (in-list (Grupo-horario g1))])
-    (for/or ([b2 (in-list (Grupo-horario g2))])
-      (bloquesChocan b1 b2))))
+  (ormap (lambda ([b1 : BloqueHorario])
+           (ormap (lambda ([b2 : BloqueHorario])
+                    (bloquesChocan b1 b2))
+                  (Grupo-horario g2)))
+         (Grupo-horario g1)))
