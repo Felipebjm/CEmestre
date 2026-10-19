@@ -17,10 +17,13 @@
    [inicio : Integer]
    [fin : Integer]))
 
+(struct PreferenciaCurso
+  ([codigo-curso : String]
+   [grupos-interes : (Listof Integer)]))
 
 (struct Preferencias
     ;lista de cursos que interesan
-  ([cursos-interes : (Listof String)]
+  ([cursos-interes : (Listof PreferenciaCurso)]
    [creditos-min : Integer]
    [creditos-max : Integer]))
 
