@@ -1,12 +1,16 @@
 #lang typed/racket
 
+(provide (all-defined-out))
+
 (struct Curso
   ([codigo : String]
    [nombre : String]
    [creditos : Integer]
    [semestre : Integer]
    [carreras : (Listof String)]
-   [grupos : (Listof Grupo)]))
+   [grupos : (Listof Grupo)]
+   [tiene-choques : Boolean]
+   [puede-matricular : Boolean]))
 
 (struct Grupo
   ([numero : Integer]
