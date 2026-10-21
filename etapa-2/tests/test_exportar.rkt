@@ -7,7 +7,7 @@
 
 (define bloque (BloqueHorario "LUN" 700 900))
 (define grupo (Grupo 1 (list bloque)))
-(define curso (Curso "CE1106" "Paradigmas de Programacion" 4 3 (list "Ingenieria en Computadores") (list grupo)))
+(define curso (Curso "CE1106" "Paradigmas de Programacion" 4 3 (list "Ingenieria en Computadores") (list grupo) #f #t))
 (define seleccion (Seleccion curso grupo))
 (define combinacion (Combinacion (list seleccion) 4))
 

@@ -4,19 +4,38 @@
 (require "../src/filtro.rkt")
 (require typed/rackunit)
 
-;; Cursos de prueba
-(define curso1 (Curso "CE1106" "Paradigmas de Programacion" 4 3 (list "Ingenieria en Computadores") '()))
-(define curso2 (Curso "CI1230" "Estructuras de Datos" 4 3 (list "Ingenieria en Computadores") '()))
-(define curso3 (Curso "FS0210" "Fisica General" 3 1 (list "Ingenieria en Computadores") '()))
+(define bloque (BloqueHorario "LUN" 700 900))
 
-(define preferencias (Preferencias (list "CE1106" "CI1230") 12 18))
+;; Curso con dos grupos, el estudiante solo esta interesado en el grupo 1.
+(define grupoA1 (Grupo 1 (list bloque)))
+(define grupoA2 (Grupo 2 (list bloque)))
+(define cursoA (Curso "AAA" "Curso A" 3 1 (list "Ingenieria en Computadores") (list grupoA1 grupoA2) #f #t))
 
-(define filtrados (filtrarCursosInteres (list curso1 curso2 curso3) preferencias))
+;; Curso con dos grupos, sin grupos de interes especificados, deben quedar todos.
+(define grupoB1 (Grupo 1 (list bloque)))
+(define grupoB2 (Grupo 2 (list bloque)))
+(define cursoB (Curso "BBB" "Curso B" 3 1 (list "Ingenieria en Computadores") (list grupoB1 grupoB2) #f #t))
 
-(check-equal? (map Curso-codigo filtrados) (list "CE1106" "CI1230")
-              "Deben quedar solo los cursos de interes, en el mismo orden del catalogo")
+;; Curso que no esta en la lista de interes.
+(define cursoC (Curso "CCC" "Curso C" 3 1 (list "Ingenieria en Computadores") (list grupoA1) #f #t))
 
-(check-false (cursoDeInteres curso3 preferencias) "Un curso que no esta en la lista de interes no debe marcarse como de interes")
-(check-true (cursoDeInteres curso1 preferencias) "Un curso que si esta en la lista de interes debe marcarse como de interes")
+(define preferencias
+  (Preferencias (list (PreferenciaCurso "AAA" (list 1))
+                       (PreferenciaCurso "BBB" '()))
+                12 18))
+
+(define filtrados (filtrarCursosInteres (list cursoA cursoB cursoC) preferencias))
+
+(check-equal? (map Curso-codigo filtrados) (list "AAA" "BBB")
+              "Solo deben quedar los cursos de interes, CCC debe quedar afuera")
+
+(check-equal? (map Grupo-numero (Curso-grupos (car filtrados))) (list 1)
+              "De AAA solo debe quedar el grupo de interes")
+
+(check-equal? (map Grupo-numero (Curso-grupos (cadr filtrados))) (list 1 2)
+              "De BBB deben quedar todos los grupos porque no se especificaron grupos de interes")
+
+(check-false (cursoDeInteres cursoC preferencias) "CCC no debe marcarse como de interes")
+(check-true (cursoDeInteres cursoA preferencias) "AAA si debe marcarse como de interes")
 
 (displayln "Todas las pruebas de filtro pasaron correctamente.")

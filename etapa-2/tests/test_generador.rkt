@@ -15,8 +15,8 @@
 (define grupoB1 (Grupo 1 (list bloqueB1)))
 (define grupoB2 (Grupo 2 (list bloqueB2)))
 
-(define cursoA (Curso "AAA" "Curso A" 3 1 (list "Ingenieria en Computadores") (list grupoA1 grupoA2)))
-(define cursoB (Curso "BBB" "Curso B" 3 1 (list "Ingenieria en Computadores") (list grupoB1 grupoB2)))
+(define cursoA (Curso "AAA" "Curso A" 3 1 (list "Ingenieria en Computadores") (list grupoA1 grupoA2) #f #t))
+(define cursoB (Curso "BBB" "Curso B" 3 1 (list "Ingenieria en Computadores") (list grupoB1 grupoB2) #f #t))
 
 ;; Con dos cursos de dos grupos cada uno deben salir 4 combinaciones en total antes de filtrar.
 (check-equal? (length (generarSelecciones (list cursoA cursoB))) 4
