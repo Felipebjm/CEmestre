@@ -5,7 +5,7 @@
  RUTA-PREFERENCIAS)
 
 (: RUTA-CATALOGO String)
-(define RUTA-CATALOGO "data/contracts/catalogo_salida.json")
+(define RUTA-CATALOGO "../../data/contracts/catalogo_salido.json")
 
 (: RUTA-PREFERENCIAS String)
-(define RUTA-PREFERENCIAS "etapa-2/data/preferencias.json")
+(define RUTA-PREFERENCIAS "../data/preferencias.json")
