@@ -35,7 +35,54 @@
 (check-equal? (map Grupo-numero (Curso-grupos (cadr filtrados))) (list 1 2)
               "De BBB deben quedar todos los grupos porque no se especificaron grupos de interes")
 
-(check-false (cursoDeInteres cursoC preferencias) "CCC no debe marcarse como de interes")
-(check-true (cursoDeInteres cursoA preferencias) "AAA si debe marcarse como de interes")
+(check-false (cursoDeInteres cursoC preferencias)
+             "CCC no debe marcarse como de interes")
+
+(check-true (cursoDeInteres cursoA preferencias)
+            "AAA si debe marcarse como de interes")
+
+
+;; Pruebas del filtro por rango de creditos.
+
+(define combinacion10 (Combinacion '() 10))
+(define combinacion12 (Combinacion '() 12))
+(define combinacion15 (Combinacion '() 15))
+(define combinacion18 (Combinacion '() 18))
+(define combinacion20 (Combinacion '() 20))
+
+;; Una combinacion menor al minimo no debe pasar.
+(check-false (combinacionEnRangoCreditos combinacion10 preferencias)
+             "10 creditos esta por debajo del minimo")
+
+;; El limite minimo tambien debe aceptarse.
+(check-true (combinacionEnRangoCreditos combinacion12 preferencias)
+            "12 creditos debe aceptarse")
+
+;; Una cantidad dentro del rango debe aceptarse.
+(check-true (combinacionEnRangoCreditos combinacion15 preferencias)
+            "15 creditos debe aceptarse")
+
+;; El limite maximo tambien debe aceptarse.
+(check-true (combinacionEnRangoCreditos combinacion18 preferencias)
+            "18 creditos debe aceptarse")
+
+;; Una combinacion mayor al maximo no debe pasar.
+(check-false (combinacionEnRangoCreditos combinacion20 preferencias)
+             "20 creditos esta por encima del maximo")
+
+;; Se prueban varias combinaciones juntas.
+(define combinacionesFiltradas
+  (filtrarCombinacionesPorCreditos
+   (list combinacion10
+         combinacion12
+         combinacion15
+         combinacion18
+         combinacion20)
+   preferencias))
+
+(check-equal? (map Combinacion-creditos-totales combinacionesFiltradas)
+              (list 12 15 18)
+              "Solo deben quedar las combinaciones entre 12 y 18 creditos")
+
 
 (displayln "Todas las pruebas de filtro pasaron correctamente.")

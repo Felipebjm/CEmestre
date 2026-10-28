@@ -2,7 +2,10 @@
 
 (require "tipos.rkt")
 
-(provide cursoDeInteres filtrarCursosInteres)
+(provide cursoDeInteres
+         filtrarCursosInteres
+         combinacionEnRangoCreditos
+         filtrarCombinacionesPorCreditos)
 
 ;; Busca la preferencia de un curso especifico por su codigo, si existe.
 (: buscarPreferenciaCurso (-> String (Listof PreferenciaCurso) (U False PreferenciaCurso)))
@@ -42,3 +45,17 @@
 (define (filtrarCursosInteres cursos preferencias)
   (map (lambda ([c : Curso]) (limitarGruposDeInteres c preferencias))
        (filter (lambda ([c : Curso]) (cursoDeInteres c preferencias)) cursos)))
+
+;; Revisa si los creditos de una combinacion estan dentro del rango indicado.
+(: combinacionEnRangoCreditos (-> Combinacion Preferencias Boolean))
+(define (combinacionEnRangoCreditos combinacion preferencias)
+  (define creditos (Combinacion-creditos-totales combinacion))
+  (and (>= creditos (Preferencias-creditos-min preferencias))
+       (<= creditos (Preferencias-creditos-max preferencias))))
+
+;; Deja solo las combinaciones que cumplen con el rango de creditos.
+(: filtrarCombinacionesPorCreditos (-> (Listof Combinacion) Preferencias (Listof Combinacion)))
+(define (filtrarCombinacionesPorCreditos combinaciones preferencias)
+  (filter (lambda ([c : Combinacion])
+            (combinacionEnRangoCreditos c preferencias))
+          combinaciones))
