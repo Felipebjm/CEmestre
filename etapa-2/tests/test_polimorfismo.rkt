@@ -22,49 +22,38 @@
 (define combinacion30 (Combinacion '() 30))
 
 
-;; ----------------------------------------
-;; Pruebas del rango de creditos
-;; ----------------------------------------
+;; Pruebas del rango de creditos.
 
-;; Debajo del minimo.
 (check-false
  (combinacionEnRangoCreditos combinacion11 preferencias)
  "11 creditos no debe pasar")
 
-;; Limite minimo.
 (check-true
  (combinacionEnRangoCreditos combinacion12 preferencias)
  "12 creditos debe pasar")
 
-;; Dentro del rango.
 (check-true
  (combinacionEnRangoCreditos combinacion15 preferencias)
  "15 creditos debe pasar")
 
-;; Limite maximo.
 (check-true
  (combinacionEnRangoCreditos combinacion18 preferencias)
  "18 creditos debe pasar")
 
-;; Encima del maximo.
 (check-false
  (combinacionEnRangoCreditos combinacion19 preferencias)
  "19 creditos no debe pasar")
 
-;; Valor muy por debajo.
 (check-false
  (combinacionEnRangoCreditos combinacion0 preferencias)
  "0 creditos no debe pasar")
 
-;; Valor muy por encima.
 (check-false
  (combinacionEnRangoCreditos combinacion30 preferencias)
  "30 creditos no debe pasar")
 
 
-;; ----------------------------------------
-;; Pruebas con varias combinaciones
-;; ----------------------------------------
+;; Se prueban varias combinaciones juntas.
 
 (define combinaciones
   (list combinacion11
@@ -84,14 +73,16 @@
  "Deben quedar solo las combinaciones entre 12 y 18")
 
 
-;; Lista vacia.
+;; Se prueba una lista vacia.
+
 (check-equal?
  (filtrarCombinacionesPorCreditos '() preferencias)
  '()
  "Una lista vacia debe seguir vacia")
 
 
-;; Ninguna combinacion cumple.
+;; Se prueba cuando ninguna combinacion cumple.
+
 (check-equal?
  (filtrarCombinacionesPorCreditos
   (list combinacion0 combinacion11 combinacion19 combinacion30)
@@ -100,7 +91,8 @@
  "No debe quedar ninguna combinacion")
 
 
-;; Todas cumplen.
+;; Se prueba cuando todas cumplen.
+
 (check-equal?
  (map Combinacion-creditos-totales
       (filtrarCombinacionesPorCreditos
@@ -110,7 +102,8 @@
  "Deben quedar todas las combinaciones")
 
 
-;; Se conserva el orden.
+;; Se revisa que el orden se mantenga.
+
 (check-equal?
  (map Combinacion-creditos-totales
       (filtrarCombinacionesPorCreditos
@@ -123,11 +116,8 @@
 (displayln "Pruebas de creditos completadas.")
 
 
-;; ----------------------------------------
-;; Pruebas del polimorfismo
-;; ----------------------------------------
+;; Pruebas del polimorfismo.
 
-;; Se prueba con numeros.
 (check-equal?
  (filtrarPorCriterio
   (lambda ([n : Integer]) (> n 3))
@@ -136,7 +126,6 @@
  "Debe funcionar con Integer")
 
 
-;; Se prueba con textos.
 (check-equal?
  (filtrarPorCriterio
   (lambda ([texto : String])
@@ -146,7 +135,6 @@
  "Debe funcionar con String")
 
 
-;; Se prueba con booleanos.
 (check-equal?
  (filtrarPorCriterio
   (lambda ([valor : Boolean]) valor)
@@ -155,7 +143,6 @@
  "Debe funcionar con Boolean")
 
 
-;; Se prueba con combinaciones.
 (check-equal?
  (map Combinacion-creditos-totales
       (filtrarPorCriterio
@@ -166,7 +153,8 @@
  "Debe funcionar con Combinacion")
 
 
-;; Lista vacia usando la funcion generica.
+;; Se prueba una lista vacia.
+
 (check-equal?
  (filtrarPorCriterio
   (lambda ([n : Integer]) (> n 0))
@@ -175,7 +163,8 @@
  "Debe aceptar una lista vacia")
 
 
-;; Criterio que acepta todos.
+;; Se prueba un criterio que acepta todos los elementos.
+
 (check-equal?
  (filtrarPorCriterio
   (lambda ([n : Integer]) #t)
@@ -184,7 +173,8 @@
  "Debe poder aceptar todos los elementos")
 
 
-;; Criterio que rechaza todos.
+;; Se prueba un criterio que rechaza todos los elementos.
+
 (check-equal?
  (filtrarPorCriterio
   (lambda ([n : Integer]) #f)
@@ -194,5 +184,4 @@
 
 
 (displayln "Pruebas de polimorfismo completadas.")
-
 (displayln "Todas las pruebas pasaron correctamente.")
