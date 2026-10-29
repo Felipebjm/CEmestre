@@ -74,3 +74,22 @@
               "Solo deben quedar las combinaciones entre 12 y 18 creditos")
 
 (displayln "Las pruebas de creditos pasaron correctamente.")
+
+
+;; Se prueba el filtro con distintos tipos.
+
+(check-equal?
+ (filtrarPorCriterio
+  (lambda ([n : Integer]) (> n 2))
+  (list 1 2 3 4))
+ (list 3 4)
+ "Debe funcionar con numeros")
+
+(check-equal?
+ (filtrarPorCriterio
+  (lambda ([texto : String]) (> (string-length texto) 3))
+  (list "TEC" "Racket" "C" "Curso"))
+ (list "Racket" "Curso")
+ "Debe funcionar con textos")
+
+(displayln "Las pruebas de polimorfismo pasaron correctamente.")

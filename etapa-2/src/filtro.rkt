@@ -4,6 +4,7 @@
 
 (provide cursoDeInteres
          filtrarCursosInteres
+         filtrarPorCriterio
          combinacionEnRangoCreditos
          filtrarCombinacionesPorCreditos)
 
@@ -46,6 +47,23 @@
   (map (lambda ([c : Curso]) (limitarGruposDeInteres c preferencias))
        (filter (lambda ([c : Curso]) (cursoDeInteres c preferencias)) cursos)))
 
+
+;; Filtra una lista usando el criterio que recibe.
+(: filtrarPorCriterio
+   (All (A)
+        (-> (-> A Boolean)
+            (Listof A)
+            (Listof A))))
+(define (filtrarPorCriterio criterio lista)
+  (cond
+    [(null? lista) '()]
+    [(criterio (car lista))
+     (cons (car lista)
+           (filtrarPorCriterio criterio (cdr lista)))]
+    [else
+     (filtrarPorCriterio criterio (cdr lista))]))
+
+
 ;; Revisa si los creditos de una combinacion estan dentro del rango indicado.
 (: combinacionEnRangoCreditos (-> Combinacion Preferencias Boolean))
 (define (combinacionEnRangoCreditos combinacion preferencias)
@@ -53,9 +71,11 @@
   (and (>= creditos (Preferencias-creditos-min preferencias))
        (<= creditos (Preferencias-creditos-max preferencias))))
 
+
 ;; Deja solo las combinaciones que cumplen con el rango de creditos.
 (: filtrarCombinacionesPorCreditos (-> (Listof Combinacion) Preferencias (Listof Combinacion)))
 (define (filtrarCombinacionesPorCreditos combinaciones preferencias)
-  (filter (lambda ([c : Combinacion])
-            (combinacionEnRangoCreditos c preferencias))
-          combinaciones))
+  (filtrarPorCriterio
+   (lambda ([c : Combinacion])
+     (combinacionEnRangoCreditos c preferencias))
+   combinaciones))
