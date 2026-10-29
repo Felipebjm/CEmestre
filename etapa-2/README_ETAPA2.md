@@ -9,6 +9,7 @@ Las pruebas se corren desde la carpeta `etapa-2`:
 ```
 racket tests/test_choques.rkt
 racket tests/test_filtro.rkt
+racket tests/test_polimorfismo.rkt
 racket tests/test_generador.rkt
 racket tests/test_streams.rkt
 racket tests/test_exportar.rkt
@@ -31,12 +32,15 @@ El proyecto se divide en varios modulos pequeños, cada uno con una responsabili
 - `parser.rkt` y `constantes.rkt`, cargan el catalogo de la etapa 1 y las preferencias del estudiante desde JSON.
 - `choques.rkt`, detecta si dos bloques de horario o dos grupos se traslapan entre si.
 - `filtro.rkt`, deja solo los cursos del catalogo que el estudiante marco como de interes, y dentro de cada uno, solo los grupos que tambien marco como de interes.
+- En `filtro.rkt` tambien se encuentra el filtro por rango de creditos y la funcion generica usada para el polimorfismo parametrico.
 - `streams.rkt`, una lista perezosa generica construida con delay y force, con las operaciones basicas para trabajar con ella (mapear, filtrar, concatenar, convertir a lista normal).
 - `generador.rkt`, genera las combinaciones validas de curso y grupo, tanto en una version con listas normales como en una version perezosa sobre streams.rkt.
 - `exportar.rkt`, convierte las combinaciones validas al formato de salida acordado.
 - `main.rkt`, junta todo el flujo en orden.
 
 El flujo completo es, se cargan el catalogo y las preferencias, se filtran los cursos de interes, se generan las combinaciones posibles, se descartan las que tienen choques, y las que sobreviven se exportan.
+
+Antes de exportar las combinaciones tambien se revisa que sus creditos esten dentro del minimo y maximo indicado en las preferencias.
 
 ## Decisiones de diseño
 
@@ -45,6 +49,12 @@ El flujo completo es, se cargan el catalogo y las preferencias, se filtran los c
 **Reutilizar la logica de choques de la etapa 1.** En vez de inventar una forma nueva de detectar traslapes de horario, se tradujo la misma logica que ya se habia probado en C, comparando dia y rango de horas entre bloques. La unica diferencia es que la version en Racket usa `ormap` en vez de un doble ciclo anidado, porque Typed Racket no siempre logra inferir el tipo de retorno de un `for/or` dentro de otro `for/or`.
 
 **Separar el filtro de cursos de interes de la generacion de combinaciones.** Se decidio que `filtro.rkt` solo se encargue de reducir el catalogo a los cursos que le interesan al estudiante, y que `generador.rkt` reciba esa lista ya filtrada. Asi cada archivo hace una sola cosa y se puede probar por separado.
+
+**Filtro por rango de creditos.** Para revisar el rango de creditos se toma el total de cada combinacion y se compara con el minimo y maximo de las preferencias. Los dos limites se aceptan, entonces una combinacion que tenga exactamente el minimo o el maximo tambien es valida. Esta parte se dejo en funciones separadas para poder probarla de forma independiente.
+
+**Polimorfismo parametrico.** Se creo la funcion `filtrarPorCriterio` para poder usar el mismo filtro con distintos tipos de datos y no tener que hacer una funcion diferente para cada caso. En el tipo de la funcion se usa `All (A)`, donde `A` representa el tipo con el que se esta trabajando. La funcion recibe un criterio que devuelve verdadero o falso y una lista de elementos de ese mismo tipo.
+
+`filtrarPorCriterio` recorre la lista de forma recursiva. Si un elemento cumple el criterio se agrega al resultado, y si no lo cumple se continua con el resto de la lista. En el proyecto se usa con `Combinacion` para aplicar el filtro por rango de creditos. Tambien se hicieron pruebas con numeros, textos y booleanos para comprobar que la misma funcion puede trabajar con diferentes tipos.
 
 **Formato de exportacion en JSON construido a mano.** Para la exportacion se armo el JSON como texto directamente en `exportar.rkt`, igual que se hizo con cJSON en la etapa 1 pero mas simple porque la estructura de salida es plana. Cada combinacion exporta la lista de pares curso y grupo, los creditos totales, y la carrera de origen.
 
@@ -70,4 +80,3 @@ Dos cursos con un grupo cada uno que empiezan y terminan exactamente a la misma 
 ## Pendiente
 
 - Unificar el nombre de la carpeta de pruebas entre `tests` y `test`, cada quien dejo la suya con un nombre distinto.
-- Conectar el filtro por rango de creditos de Luis sobre las combinaciones que ya genera `generarCombinacionesPerezoso`, que ya traen el campo `creditos-totales` listo para usarse.
