@@ -17,9 +17,13 @@
 
 (define combinaciones (todaLaLista (generarCombinacionesPerezoso cursosDeInteres)))
 
-(displayln (string-append "Combinaciones validas encontradas: "
-                           (number->string (length combinaciones))))
+;; Se filtran las combinaciones por el rango de creditos.
+(define combinacionesFiltradas
+  (filtrarCombinacionesPorCreditos combinaciones preferencias))
 
-(exportarCombinacionesAArchivo combinaciones "../data/combinaciones_salida.json")
+(displayln (string-append "Combinaciones validas encontradas: "
+                           (number->string (length combinacionesFiltradas))))
+
+(exportarCombinacionesAArchivo combinacionesFiltradas "../data/combinaciones_salida.json")
 
 (displayln "Combinaciones exportadas a data/combinaciones_salida.json")
