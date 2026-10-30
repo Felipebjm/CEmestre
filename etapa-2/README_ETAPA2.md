@@ -13,6 +13,7 @@ racket tests/test_polimorfismo.rkt
 racket tests/test_generador.rkt
 racket tests/test_streams.rkt
 racket tests/test_exportar.rkt
+racket tests/test_parseo.rkt
 ```
 
 `main.rkt` carga el catalogo y las preferencias reales, las rutas en `constantes.rkt` estan escritas para correrse parado dentro de `src`, entonces hay que entrar a esa carpeta primero:
@@ -64,10 +65,11 @@ Dos cursos con un grupo cada uno que empiezan y terminan exactamente a la misma 
 
 ## Estructuras de datos
 
-- `Curso`, codigo, nombre, creditos, semestre, carreras y la lista de grupos que ofrece.
+- `Curso`, codigo, nombre, creditos, semestre, carreras, la lista de grupos que ofrece, si tiene choques y si el estudiante puede matricularlo.
 - `Grupo`, numero de grupo y su lista de bloques de horario.
 - `BloqueHorario`, dia, hora de inicio y hora de fin.
-- `Preferencias`, la lista de cursos de interes del estudiante y el rango de creditos minimo y maximo.
+- `PreferenciaCurso`, el codigo de un curso de interes junto con los numeros de grupo que tambien le interesan al estudiante de ese curso.
+- `Preferencias`, la lista de PreferenciaCurso del estudiante y el rango de creditos minimo y maximo.
 - `Seleccion`, un curso ya emparejado con el grupo escogido.
 - `Combinacion`, una lista de selecciones junto con el total de creditos que suman.
 
@@ -79,4 +81,4 @@ Dos cursos con un grupo cada uno que empiezan y terminan exactamente a la misma 
 
 ## Pendiente
 
-- Unificar el nombre de la carpeta de pruebas entre `tests` y `test`, cada quien dejo la suya con un nombre distinto.
+- Ninguno por ahora.

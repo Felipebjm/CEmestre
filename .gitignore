@@ -64,3 +64,8 @@ etapa-1/build/*
 *.swp
 .DS_Store
 Thumbs.db
+
+# Racket, archivos compilados
+compiled/
+*.zo
+*.dep
