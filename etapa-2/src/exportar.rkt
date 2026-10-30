@@ -5,30 +5,28 @@
 
 (provide exportarCombinaciones exportarCombinacionesAArchivo)
 
-;; Convierte una seleccion (curso y grupo escogido) a su representacion en JSON.
+;; Carrera de origen de un curso, se toma la primera carrera de la lista del curso.
+(: carreraDeCurso (-> Curso String))
+(define (carreraDeCurso curso)
+  (define carreras (Curso-carreras curso))
+  (cond
+    [(null? carreras) ""]
+    [else (car carreras)]))
+
+;; Convierte una seleccion (curso y grupo escogido) a su representacion en JSON,
+;; incluyendo la carrera de origen de ese curso especifico.
 (: seleccionAJson (-> Seleccion String))
 (define (seleccionAJson s)
-  (string-append "{\"curso\":\"" (Curso-codigo (Seleccion-curso s)) "\","
-                  "\"grupo\":" (number->string (Grupo-numero (Seleccion-grupo s))) "}"))
-
-;; Carrera de origen de una combinacion, por ahora se toma del primer curso seleccionado.
-(: carreraDeCombinacion (-> Combinacion String))
-(define (carreraDeCombinacion c)
-  (define selecciones (Combinacion-selecciones c))
-  (cond
-    [(null? selecciones) ""]
-    [else
-     (define carreras (Curso-carreras (Seleccion-curso (car selecciones))))
-     (cond
-       [(null? carreras) ""]
-       [else (car carreras)])]))
+  (define curso (Seleccion-curso s))
+  (string-append "{\"curso\":\"" (Curso-codigo curso) "\","
+                  "\"grupo\":" (number->string (Grupo-numero (Seleccion-grupo s))) ","
+                  "\"carrera\":\"" (carreraDeCurso curso) "\"}"))
 
 (: combinacionAJson (-> Combinacion String))
 (define (combinacionAJson c)
   (define seleccionesJson (map seleccionAJson (Combinacion-selecciones c)))
   (string-append "{\"selecciones\":[" (string-join seleccionesJson ",") "],"
-                  "\"creditos_totales\":" (number->string (Combinacion-creditos-totales c)) ","
-                  "\"carrera\":\"" (carreraDeCombinacion c) "\"}"))
+                  "\"creditos_totales\":" (number->string (Combinacion-creditos-totales c)) "}"))
 
 ;; Arma el JSON con todas las combinaciones, en el formato acordado para la salida.
 (: exportarCombinaciones (-> (Listof Combinacion) String))

@@ -3,6 +3,7 @@
 (require "tipos.rkt")
 
 (provide cursoDeInteres
+         cursoHabilitado?
          filtrarCursosInteres
          filtrarPorCriterio
          combinacionEnRangoCreditos
@@ -20,6 +21,12 @@
 (: cursoDeInteres (-> Curso Preferencias Boolean))
 (define (cursoDeInteres curso preferencias)
   (if (buscarPreferenciaCurso (Curso-codigo curso) (Preferencias-cursos-interes preferencias)) #t #f))
+
+;; Un curso esta habilitado si el modulo de C ya determino que el estudiante puede matricularlo,
+;; es decir que cumple requisitos y correquisitos.
+(: cursoHabilitado? (-> Curso Boolean))
+(define (cursoHabilitado? curso)
+  (Curso-puede-matricular curso))
 
 ;; Un numero de grupo es de interes si esta en la lista de grupos de interes,
 ;; o si esa lista viene vacia, en ese caso se toman todos los grupos del curso.
@@ -40,12 +47,12 @@
                    [grupos (filter (lambda ([g : Grupo]) (grupoDeInteres? (Grupo-numero g) gruposInteres))
                                     (Curso-grupos curso))])]))
 
-;; Se queda solo con los cursos de interes del catalogo, y dentro de cada uno, solo con
-;; los grupos que el estudiante tambien marco como de interes.
+;; Se queda solo con los cursos de interes que ademas esten habilitados para el estudiante,
+;; y dentro de cada uno, solo con los grupos que tambien marco como de interes.
 (: filtrarCursosInteres (-> (Listof Curso) Preferencias (Listof Curso)))
 (define (filtrarCursosInteres cursos preferencias)
   (map (lambda ([c : Curso]) (limitarGruposDeInteres c preferencias))
-       (filter (lambda ([c : Curso]) (cursoDeInteres c preferencias)) cursos)))
+       (filter (lambda ([c : Curso]) (and (cursoDeInteres c preferencias) (cursoHabilitado? c))) cursos)))
 
 
 ;; Filtra una lista usando el criterio que recibe.

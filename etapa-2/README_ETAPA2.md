@@ -57,7 +57,9 @@ Antes de exportar las combinaciones tambien se revisa que sus creditos esten den
 
 `filtrarPorCriterio` recorre la lista de forma recursiva. Si un elemento cumple el criterio se agrega al resultado, y si no lo cumple se continua con el resto de la lista. En el proyecto se usa con `Combinacion` para aplicar el filtro por rango de creditos. Tambien se hicieron pruebas con numeros, textos y booleanos para comprobar que la misma funcion puede trabajar con diferentes tipos.
 
-**Formato de exportacion en JSON construido a mano.** Para la exportacion se armo el JSON como texto directamente en `exportar.rkt`, igual que se hizo con cJSON en la etapa 1 pero mas simple porque la estructura de salida es plana. Cada combinacion exporta la lista de pares curso y grupo, los creditos totales, y la carrera de origen.
+**Formato de exportacion en JSON construido a mano.** Para la exportacion se armo el JSON como texto directamente en `exportar.rkt`, igual que se hizo con cJSON en la etapa 1 pero mas simple porque la estructura de salida es plana. Cada combinacion exporta la lista de pares curso y grupo, los creditos totales, y la carrera de origen de cada curso se incluye dentro de su propia seleccion, porque un mismo estudiante puede estar combinando cursos de carreras distintas en una sola combinacion.
+
+**Filtrar tambien por cursos habilitados.** Ademas de quedarse con los cursos de interes del estudiante, `filtrarCursosInteres` descarta los cursos que el modulo de C ya marco como no habilitados (`puede-matricular` en falso), porque el enunciado pide generar combinaciones solo con cursos habilitados, no basta con que el estudiante este interesado.
 
 ## Caso limite real
 
