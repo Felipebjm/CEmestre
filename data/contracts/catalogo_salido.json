@@ -1309,7 +1309,7 @@
 			"nombre":	"centros de formación humanística",
 			"creditos":	0,
 			"semestre":	3,
-			"carreras":	["CE"],
+			"carreras":	["CE", "ME"],
 			"grupos":	[],
 			"requisitos":	[],
 			"correquisitos":	[],
@@ -1791,7 +1791,7 @@
 			"nombre":	"probabilidad y estadística",
 			"creditos":	2,
 			"semestre":	4,
-			"carreras":	["CE"],
+			"carreras":	["CE", "ME"],
 			"grupos":	[{
 					"numeroGrupo":	2,
 					"horario":	[{
@@ -1944,7 +1944,7 @@
 			"nombre":	"ecuaciones diferenciales",
 			"creditos":	4,
 			"semestre":	4,
-			"carreras":	["ME"],
+			"carreras":	["ME", "CE"],
 			"grupos":	[{
 					"numeroGrupo":	1,
 					"horario":	[{
@@ -2091,6 +2091,330 @@
 				}],
 			"requisitos":	["MI2101"],
 			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1107",
+			"nombre":	"fundamentos de arquitectura de computadores",
+			"creditos":	4,
+			"semestre":	5,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["EL2207"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE3101",
+			"nombre":	"bases de datos",
+			"creditos":	4,
+			"semestre":	5,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}]
+				}],
+			"requisitos":	["CE1106"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE3201",
+			"nombre":	"taller de diseño digital",
+			"creditos":	2,
+			"semestre":	5,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"SAB",
+							"inicio":	"08:30",
+							"fin":	"10:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"SAB",
+							"inicio":	"10:30",
+							"fin":	"12:20"
+						}]
+				}],
+			"requisitos":	["CE2201"],
+			"correquisitos":	["CE1107"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"PI5516",
+			"nombre":	"ingeniería económica",
+			"creditos":	3,
+			"semestre":	5,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}],
+			"requisitos":	["PI2609"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM3207",
+			"nombre":	"métodos numéricos para ingeniería",
+			"creditos":	3,
+			"semestre":	5,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["CA2125", "MA2105"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM3501",
+			"nombre":	"materiales poliméricos",
+			"creditos":	3,
+			"semestre":	5,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}],
+			"requisitos":	["QU2403", "QU2404"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CS2303",
+			"nombre":	"relaciones laborales",
+			"creditos":	2,
+			"semestre":	5,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"18:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	5,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"17:50"
+						}]
+				}],
+			"requisitos":	["CS1502"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	true
+		}, {
+			"codigo":	"MI3115",
+			"nombre":	"resistencia de materiales",
+			"creditos":	3,
+			"semestre":	5,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	4,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"20:50"
+						}]
+				}],
+			"requisitos":	["MI2106"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"MI4510",
+			"nombre":	"electrotecnia",
+			"creditos":	3,
+			"semestre":	5,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["FI1102", "FI1202"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"SO2601",
+			"nombre":	"fundamentos de seguridad e higiene ocupacional",
+			"creditos":	1,
+			"semestre":	5,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	[],
+			"correquisitos":	["CS2303"],
+			"tieneChoque":	true,
+			"puedeMatricular":	true
+		}, {
+			"codigo":	"CE1108",
+			"nombre":	"compiladores e intérpretes",
+			"creditos":	4,
+			"semestre":	6,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}],
+			"requisitos":	["CE1107"],
+			"correquisitos":	["CE4301"],
 			"tieneChoque":	true,
 			"puedeMatricular":	false
 		}]
