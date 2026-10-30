@@ -4,7 +4,7 @@
 
 
 /* Límites de tamaño */
-#define MAX_CURSOS          51   /* primeros 4 semestres x 2 carreras */
+#define MAX_CURSOS          62   /* primeros 4 semestres x 2 carreras */
 #define MAX_GRUPOS_POR_CURSO 5
 #define MAX_BLOQUES_HORARIO  4   /* bloques día/hora por grupo */
 #define MAX_REQUISITOS       5
