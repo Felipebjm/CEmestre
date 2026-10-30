@@ -59,11 +59,9 @@ Antes de exportar las combinaciones tambien se revisa que sus creditos esten den
 
 **Formato de exportacion en JSON construido a mano.** Para la exportacion se armo el JSON como texto directamente en `exportar.rkt`, igual que se hizo con cJSON en la etapa 1 pero mas simple porque la estructura de salida es plana. Cada combinacion exporta la lista de pares curso y grupo, los creditos totales, y la carrera de origen de cada curso se incluye dentro de su propia seleccion, porque un mismo estudiante puede estar combinando cursos de carreras distintas en una sola combinacion.
 
+**Carreras como lista en vez de duplicar cursos compartidos.** Un curso puede pertenecer a mas de una carrera, por ejemplo fisica general la comparten computadores y materiales. La primera opcion que se penso fue separar esos cursos en una entrada distinta por cada carrera, pero eso obliga a procesar y comparar el mismo curso dos veces al generar combinaciones, duplicando trabajo sin necesidad. Se decidio en cambio dejar un curso compartido como una sola entrada en el catalogo, y que la exportacion liste todas las carreras a las que pertenece en un arreglo, en vez de un solo valor. Asi se mantiene la informacion completa sin duplicar cursos.
+
 **Filtrar tambien por cursos habilitados.** Ademas de quedarse con los cursos de interes del estudiante, `filtrarCursosInteres` descarta los cursos que el modulo de C ya marco como no habilitados (`puede-matricular` en falso), porque el enunciado pide generar combinaciones solo con cursos habilitados, no basta con que el estudiante este interesado.
-
-**Uso de Typed Racket.** Se decidió usar Typed Racket en vez de contratdos debido a que se trabaja con muchas estructuras de datos que se relacionan entre sí. El suo de tipos de datos estáticos permitió detectar errores durante la compilación.Además Typed Racket facilitó documentar las estructuras de datos, las entradas y salidas, lo que facilitó la lectura y comprensión del código. Tambien se hizo ya que las función con polimorfismo parametrico se relaciona de forma más natural con Typed Racket.
-
-**Preferencias.** Se optó que el archivo preferencias fuese un JSON sencillo y fácil se leer. Se utizó el formato JSON debido a la facilidad para parsear esta información con la librería integrada de Racket.
 
 ## Caso limite real
 
