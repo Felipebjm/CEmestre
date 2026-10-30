@@ -61,6 +61,10 @@ Antes de exportar las combinaciones tambien se revisa que sus creditos esten den
 
 **Filtrar tambien por cursos habilitados.** Ademas de quedarse con los cursos de interes del estudiante, `filtrarCursosInteres` descarta los cursos que el modulo de C ya marco como no habilitados (`puede-matricular` en falso), porque el enunciado pide generar combinaciones solo con cursos habilitados, no basta con que el estudiante este interesado.
 
+**Uso de Typed Racket.** Se decidió usar Typed Racket en vez de contratdos debido a que se trabaja con muchas estructuras de datos que se relacionan entre sí. El suo de tipos de datos estáticos permitió detectar errores durante la compilación.Además Typed Racket facilitó documentar las estructuras de datos, las entradas y salidas, lo que facilitó la lectura y comprensión del código. Tambien se hizo ya que las función con polimorfismo parametrico se relaciona de forma más natural con Typed Racket.
+
+**Preferencias.** Se optó que el archivo preferencias fuese un JSON sencillo y fácil se leer. Se utizó el formato JSON debido a la facilidad para parsear esta información con la librería integrada de Racket.
+
 ## Caso limite real
 
 Dos cursos con un grupo cada uno que empiezan y terminan exactamente a la misma hora en el mismo dia, por ejemplo un grupo de 7 a 9 y otro que empieza justo a las 9, no deben marcarse como choque, porque no hay traslape real de horario, solo coinciden en el borde. Esto se probo directamente en `test_choques.rkt` con un caso donde un bloque termina exactamente cuando el otro empieza.
