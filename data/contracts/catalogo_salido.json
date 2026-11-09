@@ -2,6 +2,7 @@
 	"catalogo":	[{
 			"codigo":	"CI0205",
 			"nombre":	"prueba avanzada inglés",
+			"area":	"humanidades",
 			"creditos":	0,
 			"semestre":	0,
 			"carreras":	["CE"],
@@ -13,6 +14,7 @@
 		}, {
 			"codigo":	"MA0101",
 			"nombre":	"matemática general",
+			"area":	"ciencias_naturales",
 			"creditos":	2,
 			"semestre":	0,
 			"carreras":	["CE", "ME"],
@@ -79,6 +81,7 @@
 		}, {
 			"codigo":	"CI0200",
 			"nombre":	"examen diagnóstico",
+			"area":	"humanidades",
 			"creditos":	0,
 			"semestre":	0,
 			"carreras":	["ME"],
@@ -90,6 +93,7 @@
 		}, {
 			"codigo":	"CI0202",
 			"nombre":	"inglés básico",
+			"area":	"humanidades",
 			"creditos":	2,
 			"semestre":	0,
 			"carreras":	["ME"],
@@ -136,6 +140,7 @@
 		}, {
 			"codigo":	"CE1101",
 			"nombre":	"introducción a la programación",
+			"area":	"software",
 			"creditos":	3,
 			"semestre":	1,
 			"carreras":	["CE"],
@@ -169,6 +174,7 @@
 		}, {
 			"codigo":	"CE1104",
 			"nombre":	"fundamentos de sistemas computacionales",
+			"area":	"electronica",
 			"creditos":	3,
 			"semestre":	1,
 			"carreras":	["CE"],
@@ -191,6 +197,7 @@
 		}, {
 			"codigo":	"MA1102",
 			"nombre":	"cálculo diferencial e integral",
+			"area":	"ciencias_naturales",
 			"creditos":	4,
 			"semestre":	1,
 			"carreras":	["CE", "ME"],
@@ -257,6 +264,7 @@
 		}, {
 			"codigo":	"MA1403",
 			"nombre":	"matemática discreta",
+			"area":	"ciencias_naturales",
 			"creditos":	4,
 			"semestre":	1,
 			"carreras":	["CE"],
@@ -323,6 +331,7 @@
 		}, {
 			"codigo":	"QU1102",
 			"nombre":	"laboratorio de química básica i",
+			"area":	"ciencias_naturales",
 			"creditos":	1,
 			"semestre":	1,
 			"carreras":	["CE", "ME"],
@@ -369,6 +378,7 @@
 		}, {
 			"codigo":	"QU1106",
 			"nombre":	"química básica i",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	1,
 			"carreras":	["CE", "ME"],
@@ -435,6 +445,7 @@
 		}, {
 			"codigo":	"SE1100",
 			"nombre":	"actividad cultural i",
+			"area":	"arte_deporte",
 			"creditos":	0,
 			"semestre":	1,
 			"carreras":	["CE", "ME"],
@@ -446,6 +457,7 @@
 		}, {
 			"codigo":	"SE1200",
 			"nombre":	"actividad deportiva i",
+			"area":	"arte_deporte",
 			"creditos":	0,
 			"semestre":	1,
 			"carreras":	["CE", "ME"],
@@ -457,6 +469,7 @@
 		}, {
 			"codigo":	"CI1106",
 			"nombre":	"comunicación escrita",
+			"area":	"humanidades",
 			"creditos":	2,
 			"semestre":	1,
 			"carreras":	["ME"],
@@ -503,6 +516,7 @@
 		}, {
 			"codigo":	"CM1103",
 			"nombre":	"introducción a la ciencia e ingeniería de los materiales",
+			"area":	"materiales_mecanica",
 			"creditos":	3,
 			"semestre":	1,
 			"carreras":	["ME"],
@@ -514,6 +528,7 @@
 		}, {
 			"codigo":	"MI2101",
 			"nombre":	"dibujo técnico",
+			"area":	"materiales_mecanica",
 			"creditos":	3,
 			"semestre":	1,
 			"carreras":	["ME"],
@@ -560,6 +575,7 @@
 		}, {
 			"codigo":	"CE1103",
 			"nombre":	"algoritmos y estructuras de datos i",
+			"area":	"software",
 			"creditos":	4,
 			"semestre":	2,
 			"carreras":	["CE"],
@@ -604,6 +620,7 @@
 		}, {
 			"codigo":	"CE1105",
 			"nombre":	"principios de modelado en ingeniería",
+			"area":	"materiales_mecanica",
 			"creditos":	3,
 			"semestre":	2,
 			"carreras":	["CE"],
@@ -648,6 +665,7 @@
 		}, {
 			"codigo":	"CI1407",
 			"nombre":	"habilidades de comunicación en ingeniería",
+			"area":	"humanidades",
 			"creditos":	2,
 			"semestre":	2,
 			"carreras":	["CE"],
@@ -687,6 +705,7 @@
 		}, {
 			"codigo":	"CS1502",
 			"nombre":	"introducción a la técnica ciencia y tecnología",
+			"area":	"humanidades",
 			"creditos":	1,
 			"semestre":	2,
 			"carreras":	["CE", "ME"],
@@ -733,6 +752,7 @@
 		}, {
 			"codigo":	"FI1101",
 			"nombre":	"física general i",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	2,
 			"carreras":	["CE", "ME"],
@@ -799,6 +819,7 @@
 		}, {
 			"codigo":	"FI1201",
 			"nombre":	"laboratorio física general i",
+			"area":	"ciencias_naturales",
 			"creditos":	1,
 			"semestre":	2,
 			"carreras":	["CE", "ME"],
@@ -845,6 +866,7 @@
 		}, {
 			"codigo":	"MA1103",
 			"nombre":	"cálculo y álgebra lineal",
+			"area":	"ciencias_naturales",
 			"creditos":	4,
 			"semestre":	2,
 			"carreras":	["CE", "ME"],
@@ -907,6 +929,7 @@
 		}, {
 			"codigo":	"SE1400",
 			"nombre":	"actividad cultural-deportiva",
+			"area":	"arte_deporte",
 			"creditos":	0,
 			"semestre":	2,
 			"carreras":	["CE", "ME"],
@@ -918,6 +941,7 @@
 		}, {
 			"codigo":	"CA2125",
 			"nombre":	"elementos de computación",
+			"area":	"software",
 			"creditos":	3,
 			"semestre":	2,
 			"carreras":	["ME"],
@@ -984,6 +1008,7 @@
 		}, {
 			"codigo":	"CI1107",
 			"nombre":	"comunicación oral",
+			"area":	"humanidades",
 			"creditos":	1,
 			"semestre":	2,
 			"carreras":	["ME"],
@@ -1030,6 +1055,7 @@
 		}, {
 			"codigo":	"CI1230",
 			"nombre":	"inglés I",
+			"area":	"humanidades",
 			"creditos":	2,
 			"semestre":	2,
 			"carreras":	["ME"],
@@ -1076,6 +1102,7 @@
 		}, {
 			"codigo":	"QU1104",
 			"nombre":	"laboratorio de química básica II",
+			"area":	"ciencias_naturales",
 			"creditos":	1,
 			"semestre":	2,
 			"carreras":	["ME"],
@@ -1122,6 +1149,7 @@
 		}, {
 			"codigo":	"QU1107",
 			"nombre":	"química básica II",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	2,
 			"carreras":	["ME"],
@@ -1188,6 +1216,7 @@
 		}, {
 			"codigo":	"CE2103",
 			"nombre":	"algoritmos y estructuras de datos II",
+			"area":	"software",
 			"creditos":	4,
 			"semestre":	3,
 			"carreras":	["CE"],
@@ -1210,6 +1239,7 @@
 		}, {
 			"codigo":	"CS2101",
 			"nombre":	"ambiente humano",
+			"area":	"humanidades",
 			"creditos":	2,
 			"semestre":	3,
 			"carreras":	["CE"],
@@ -1256,6 +1286,7 @@
 		}, {
 			"codigo":	"EL2113",
 			"nombre":	"circuitos eléctricos en corriente continua",
+			"area":	"electronica",
 			"creditos":	4,
 			"semestre":	3,
 			"carreras":	["CE"],
@@ -1307,6 +1338,7 @@
 		}, {
 			"codigo":	"FH1000",
 			"nombre":	"centros de formación humanística",
+			"area":	"humanidades",
 			"creditos":	0,
 			"semestre":	3,
 			"carreras":	["CE", "ME"],
@@ -1318,6 +1350,7 @@
 		}, {
 			"codigo":	"FI1102",
 			"nombre":	"física general II",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	3,
 			"carreras":	["CE", "ME"],
@@ -1384,6 +1417,7 @@
 		}, {
 			"codigo":	"FI1202",
 			"nombre":	"laboratorio física general II",
+			"area":	"ciencias_naturales",
 			"creditos":	1,
 			"semestre":	3,
 			"carreras":	["CE", "ME"],
@@ -1430,6 +1464,7 @@
 		}, {
 			"codigo":	"MA2104",
 			"nombre":	"cálculo superior",
+			"area":	"ciencias_naturales",
 			"creditos":	4,
 			"semestre":	3,
 			"carreras":	["CE"],
@@ -1492,6 +1527,7 @@
 		}, {
 			"codigo":	"CI1231",
 			"nombre":	"inglés II",
+			"area":	"humanidades",
 			"creditos":	2,
 			"semestre":	3,
 			"carreras":	["ME"],
@@ -1538,6 +1574,7 @@
 		}, {
 			"codigo":	"CM2103",
 			"nombre":	"termodinámica",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	3,
 			"carreras":	["ME"],
@@ -1556,6 +1593,7 @@
 		}, {
 			"codigo":	"QU2403",
 			"nombre":	"química orgánica",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	3,
 			"carreras":	["ME"],
@@ -1589,6 +1627,7 @@
 		}, {
 			"codigo":	"QU2404",
 			"nombre":	"laboratorio de química orgánica",
+			"area":	"ciencias_naturales",
 			"creditos":	2,
 			"semestre":	3,
 			"carreras":	["ME"],
@@ -1621,6 +1660,7 @@
 		}, {
 			"codigo":	"CE1106",
 			"nombre":	"paradigmas de programación",
+			"area":	"software",
 			"creditos":	3,
 			"semestre":	4,
 			"carreras":	["CE"],
@@ -1654,6 +1694,7 @@
 		}, {
 			"codigo":	"CE2201",
 			"nombre":	"laboratorio de circuitos eléctricos",
+			"area":	"electronica",
 			"creditos":	1,
 			"semestre":	4,
 			"carreras":	["CE"],
@@ -1679,6 +1720,7 @@
 		}, {
 			"codigo":	"EL2114",
 			"nombre":	"circuitos eléctricos en corriente alterna",
+			"area":	"electronica",
 			"creditos":	4,
 			"semestre":	4,
 			"carreras":	["CE"],
@@ -1734,6 +1776,7 @@
 		}, {
 			"codigo":	"EL2207",
 			"nombre":	"elementos activos",
+			"area":	"electronica",
 			"creditos":	4,
 			"semestre":	4,
 			"carreras":	["CE"],
@@ -1789,6 +1832,7 @@
 		}, {
 			"codigo":	"PI2609",
 			"nombre":	"probabilidad y estadística",
+			"area":	"ciencias_naturales",
 			"creditos":	2,
 			"semestre":	4,
 			"carreras":	["CE", "ME"],
@@ -1821,6 +1865,7 @@
 		}, {
 			"codigo":	"SO4604",
 			"nombre":	"seguridad y salud ocupacional",
+			"area":	"gestion",
 			"creditos":	3,
 			"semestre":	4,
 			"carreras":	["CE"],
@@ -1867,6 +1912,7 @@
 		}, {
 			"codigo":	"CM2401",
 			"nombre":	"metalurgia física",
+			"area":	"materiales_mecanica",
 			"creditos":	3,
 			"semestre":	4,
 			"carreras":	["ME"],
@@ -1885,6 +1931,7 @@
 		}, {
 			"codigo":	"CM2402",
 			"nombre":	"laboratorio de metalurgia física",
+			"area":	"materiales_mecanica",
 			"creditos":	1,
 			"semestre":	4,
 			"carreras":	["ME"],
@@ -1924,6 +1971,7 @@
 		}, {
 			"codigo":	"CM3103",
 			"nombre":	"termodinámica de materiales",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	4,
 			"carreras":	["ME"],
@@ -1942,6 +1990,7 @@
 		}, {
 			"codigo":	"MA2105",
 			"nombre":	"ecuaciones diferenciales",
+			"area":	"ciencias_naturales",
 			"creditos":	4,
 			"semestre":	4,
 			"carreras":	["ME", "CE"],
@@ -2004,6 +2053,7 @@
 		}, {
 			"codigo":	"MI2106",
 			"nombre":	"estática",
+			"area":	"materiales_mecanica",
 			"creditos":	3,
 			"semestre":	4,
 			"carreras":	["ME"],
@@ -2050,6 +2100,7 @@
 		}, {
 			"codigo":	"MI3124",
 			"nombre":	"dibujo industrial",
+			"area":	"materiales_mecanica",
 			"creditos":	4,
 			"semestre":	4,
 			"carreras":	["ME"],
@@ -2096,6 +2147,7 @@
 		}, {
 			"codigo":	"CE1107",
 			"nombre":	"fundamentos de arquitectura de computadores",
+			"area":	"electronica",
 			"creditos":	4,
 			"semestre":	5,
 			"carreras":	["CE"],
@@ -2118,6 +2170,7 @@
 		}, {
 			"codigo":	"CE3101",
 			"nombre":	"bases de datos",
+			"area":	"software",
 			"creditos":	4,
 			"semestre":	5,
 			"carreras":	["CE"],
@@ -2151,6 +2204,7 @@
 		}, {
 			"codigo":	"CE3201",
 			"nombre":	"taller de diseño digital",
+			"area":	"electronica",
 			"creditos":	2,
 			"semestre":	5,
 			"carreras":	["CE"],
@@ -2184,6 +2238,7 @@
 		}, {
 			"codigo":	"PI5516",
 			"nombre":	"ingeniería económica",
+			"area":	"gestion",
 			"creditos":	3,
 			"semestre":	5,
 			"carreras":	["CE"],
@@ -2209,6 +2264,7 @@
 		}, {
 			"codigo":	"CM3207",
 			"nombre":	"métodos numéricos para ingeniería",
+			"area":	"ciencias_naturales",
 			"creditos":	3,
 			"semestre":	5,
 			"carreras":	["ME"],
@@ -2255,6 +2311,7 @@
 		}, {
 			"codigo":	"CM3501",
 			"nombre":	"materiales poliméricos",
+			"area":	"materiales_mecanica",
 			"creditos":	3,
 			"semestre":	5,
 			"carreras":	["ME"],
@@ -2277,6 +2334,7 @@
 		}, {
 			"codigo":	"CS2303",
 			"nombre":	"relaciones laborales",
+			"area":	"humanidades",
 			"creditos":	2,
 			"semestre":	5,
 			"carreras":	["ME"],
@@ -2323,6 +2381,7 @@
 		}, {
 			"codigo":	"MI3115",
 			"nombre":	"resistencia de materiales",
+			"area":	"materiales_mecanica",
 			"creditos":	3,
 			"semestre":	5,
 			"carreras":	["ME"],
@@ -2362,6 +2421,7 @@
 		}, {
 			"codigo":	"MI4510",
 			"nombre":	"electrotecnia",
+			"area":	"electronica",
 			"creditos":	3,
 			"semestre":	5,
 			"carreras":	["ME"],
@@ -2380,6 +2440,7 @@
 		}, {
 			"codigo":	"SO2601",
 			"nombre":	"fundamentos de seguridad e higiene ocupacional",
+			"area":	"gestion",
 			"creditos":	1,
 			"semestre":	5,
 			"carreras":	["ME"],
@@ -2398,6 +2459,7 @@
 		}, {
 			"codigo":	"CE1108",
 			"nombre":	"compiladores e intérpretes",
+			"area":	"software",
 			"creditos":	4,
 			"semestre":	6,
 			"carreras":	["CE"],
