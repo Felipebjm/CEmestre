@@ -9,6 +9,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "humanidades",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -26,6 +27,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 2,
           "requisitos": [],
           "correquisitos": [],
@@ -86,6 +88,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -102,6 +105,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [],
           "correquisitos": [],
@@ -159,6 +163,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 3,
           "requisitos": [],
           "correquisitos": [],
@@ -179,6 +184,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 3,
           "requisitos": [],
           "correquisitos": [
@@ -198,6 +204,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 4,
           "requisitos": [
             "MA0101"
@@ -300,6 +307,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "ciencias_naturales",
           "creditos": 4,
           "requisitos": [],
           "correquisitos": [],
@@ -337,6 +345,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 1,
           "requisitos": [],
           "correquisitos": [
@@ -404,6 +413,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [],
           "correquisitos": [
@@ -447,6 +457,7 @@
             "CE",
             "ME"
           ],
+          "area": "arte_deporte",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -464,6 +475,7 @@
             "CE",
             "ME"
           ],
+          "area": "arte_deporte",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -480,6 +492,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [],
           "correquisitos": [],
@@ -512,6 +525,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [],
           "correquisitos": [],
@@ -528,6 +542,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [],
           "correquisitos": [],
@@ -593,6 +608,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 4,
           "requisitos": [
             "CE1101",
@@ -621,6 +637,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CE1104"
@@ -647,6 +664,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [],
           "correquisitos": [],
@@ -676,6 +694,7 @@
             "CE",
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 1,
           "requisitos": [],
           "correquisitos": [],
@@ -709,6 +728,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "MA1102"
@@ -792,6 +812,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 1,
           "requisitos": [],
           "correquisitos": [
@@ -907,6 +928,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 4,
           "requisitos": [
             "MA1102"
@@ -998,6 +1020,7 @@
             "CE",
             "ME"
           ],
+          "area": "arte_deporte",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -1014,6 +1037,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "software",
           "creditos": 3,
           "requisitos": [
             "MA0101"
@@ -1080,6 +1104,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 1,
           "requisitos": [
             "CI1106"
@@ -1226,6 +1251,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [
             "CI0200",
@@ -1285,6 +1311,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 1,
           "requisitos": [
             "QU1102",
@@ -1402,6 +1429,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "QU1102",
@@ -1472,6 +1500,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 4,
           "requisitos": [
             "CE1103",
@@ -1491,6 +1520,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [],
           "correquisitos": [],
@@ -1535,6 +1565,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "FI1101",
@@ -1567,6 +1598,7 @@
             "CE",
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 0,
           "requisitos": [],
           "correquisitos": [],
@@ -1584,6 +1616,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "FI1101"
@@ -1645,6 +1678,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 1,
           "requisitos": [
             "FI1201"
@@ -1697,6 +1731,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "ciencias_naturales",
           "creditos": 4,
           "requisitos": [
             "MA1103"
@@ -1739,6 +1774,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [
             "CI1230"
@@ -1797,6 +1833,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "MA1102",
@@ -1816,6 +1853,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "QU1104",
@@ -1841,6 +1879,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 2,
           "requisitos": [
             "QU1104",
@@ -1875,6 +1914,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 3,
           "requisitos": [
             "CE2103"
@@ -1897,6 +1937,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 1,
           "requisitos": [
             "FI1202"
@@ -1919,6 +1960,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "EL2113"
@@ -1951,6 +1993,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "EL2113"
@@ -1982,6 +2025,7 @@
             "CE",
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 2,
           "requisitos": [
             "MA2104"
@@ -2008,6 +2052,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "gestion",
           "creditos": 3,
           "requisitos": [
             "FI1102"
@@ -2042,6 +2087,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CM2103"
@@ -2062,6 +2108,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 1,
           "requisitos": [
             "CM1103"
@@ -2094,6 +2141,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "CM2103"
@@ -2113,6 +2161,7 @@
             "ME",
             "CE"
           ],
+          "area": "ciencias_naturales",
           "creditos": 4,
           "requisitos": [
             "MA1103"
@@ -2167,6 +2216,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "FI1101",
@@ -2214,6 +2264,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "MI2101"
@@ -2253,6 +2304,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "EL2207"
@@ -2271,6 +2323,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 4,
           "requisitos": [
             "CE1106"
@@ -2293,6 +2346,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 2,
           "requisitos": [
             "CE2201"
@@ -2317,6 +2371,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "gestion",
           "creditos": 3,
           "requisitos": [
             "PI2609"
@@ -2339,6 +2394,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "CA2125",
@@ -2386,6 +2442,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "QU2403",
@@ -2405,6 +2462,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [
             "CS1502"
@@ -2447,6 +2505,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "MI2106"
@@ -2477,6 +2536,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "electronica",
           "creditos": 3,
           "requisitos": [
             "FI1102",
@@ -2496,6 +2556,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "gestion",
           "creditos": 1,
           "requisitos": [],
           "correquisitos": [
@@ -2519,6 +2580,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 4,
           "requisitos": [
             "CE1107"
@@ -2539,6 +2601,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "EL2207",
@@ -2558,6 +2621,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "EL2114",
@@ -2577,6 +2641,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "CE1107",
@@ -2596,6 +2661,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [
             "CI0205"
@@ -2614,6 +2680,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "MI3124",
@@ -2637,6 +2704,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "CM3103",
@@ -2656,6 +2724,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CM2401",
@@ -2675,6 +2744,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CM2401",
@@ -2694,6 +2764,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 2,
           "requisitos": [
             "CM2401",
@@ -2723,6 +2794,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 2,
           "requisitos": [
             "CM3501"
@@ -2746,6 +2818,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "MA2105"
@@ -2764,6 +2837,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 3,
           "requisitos": [
             "CE1109",
@@ -2783,6 +2857,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "gestion",
           "creditos": 4,
           "requisitos": [
             "CE3101",
@@ -2803,6 +2878,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 4,
           "requisitos": [
             "CE4301"
@@ -2827,6 +2903,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 4,
           "requisitos": [
             "CE1108"
@@ -2845,6 +2922,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "gestion",
           "creditos": 3,
           "requisitos": [
             "PI2609"
@@ -2863,6 +2941,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CM3208",
@@ -2884,6 +2963,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM3603"
@@ -2904,6 +2984,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "ciencias_naturales",
           "creditos": 3,
           "requisitos": [
             "CM3207",
@@ -2923,6 +3004,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CM2401",
@@ -2947,6 +3029,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "gestion",
           "creditos": 4,
           "requisitos": [
             "CS2101"
@@ -2989,6 +3072,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "electronica",
           "creditos": 3,
           "requisitos": [
             "CE4303"
@@ -3007,6 +3091,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 4,
           "requisitos": [
             "CE1116",
@@ -3026,6 +3111,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 3,
           "requisitos": [
             "CE4302",
@@ -3046,6 +3132,7 @@
             "CE",
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [
             "CS2101"
@@ -3104,6 +3191,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM3603",
@@ -3123,6 +3211,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM4305",
@@ -3142,6 +3231,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "gestion",
           "creditos": 3,
           "requisitos": [
             "AE5121"
@@ -3160,6 +3250,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 7,
           "requisitos": [
             "CM3205"
@@ -3186,6 +3277,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 4,
           "requisitos": [
             "AE4208",
@@ -3206,6 +3298,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 3,
           "requisitos": [
             "CE5301"
@@ -3224,6 +3317,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "gestion",
           "creditos": 3,
           "requisitos": [
             "CE5301"
@@ -3244,6 +3338,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 3,
           "requisitos": [
             "CE5701"
@@ -3262,6 +3357,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 3,
           "requisitos": [
             "CE5701"
@@ -3281,6 +3377,7 @@
             "CE",
             "ME"
           ],
+          "area": "humanidades",
           "creditos": 2,
           "requisitos": [
             "CS3404"
@@ -3375,6 +3472,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM3602",
@@ -3394,6 +3492,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM3205",
@@ -3413,6 +3512,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM4802"
@@ -3431,6 +3531,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CM3208",
@@ -3450,6 +3551,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 3,
           "requisitos": [
             "CM4801"
@@ -3473,6 +3575,7 @@
           "carreras": [
             "CE"
           ],
+          "area": "software",
           "creditos": 12,
           "requisitos": [
             "Ver todos"
@@ -3491,6 +3594,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM4802"
@@ -3509,6 +3613,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 4,
           "requisitos": [
             "CM4309"
@@ -3527,6 +3632,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "materiales_mecanica",
           "creditos": 10,
           "requisitos": [
             "CM4803",
@@ -3546,6 +3652,7 @@
           "carreras": [
             "ME"
           ],
+          "area": "gestion",
           "creditos": 4,
           "requisitos": [
             "CM4802"

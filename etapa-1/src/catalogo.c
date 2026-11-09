@@ -61,7 +61,6 @@ static int cargarHorarios(const char *texto,Grupo *grupo)
             posicion++;
         }
     }
-
     return 0;
 }
 
@@ -86,9 +85,7 @@ static int cargarGrupo(cJSON *objetoGrupo,Grupo *grupo)
         return -1;
     }
 
-    
     //Caso de grupo y horario vacio
-    
     if (strlen(numeroGrupo->valuestring) == 0 ||
         strlen(horario->valuestring) == 0)
     {
@@ -114,6 +111,7 @@ static int cargarCurso(cJSON *objetoCurso,
 {
     cJSON *codigo;
     cJSON *nombre;
+    cJSON *area;
     cJSON *carreras;
     cJSON *creditos;
     cJSON *requisitos;
@@ -122,17 +120,17 @@ static int cargarCurso(cJSON *objetoCurso,
 
     codigo = cJSON_GetObjectItem(objetoCurso, "codigo");
     nombre = cJSON_GetObjectItem(objetoCurso, "nombre");
+    area = cJSON_GetObjectItem(objetoCurso, "area");
     carreras = cJSON_GetObjectItem(objetoCurso, "carreras");
     creditos = cJSON_GetObjectItem(objetoCurso, "creditos");
     requisitos = cJSON_GetObjectItem(objetoCurso, "requisitos");
     correquisitos = cJSON_GetObjectItem(objetoCurso, "correquisitos");
     grupos = cJSON_GetObjectItem(objetoCurso, "grupos");
-
-    
-    //Verificar campos obligatorios.
-     
+  
+    //Verificar campos obligatorios.     
     if (!cJSON_IsString(codigo) ||
         !cJSON_IsString(nombre) ||
+        !cJSON_IsString(area) ||
         !cJSON_IsArray(carreras) ||
         !cJSON_IsNumber(creditos) ||
         !cJSON_IsArray(requisitos) ||
@@ -141,9 +139,7 @@ static int cargarCurso(cJSON *objetoCurso,
     {
         return -1;
     }
-
-
-    
+   
     //Datos básicos
     
     strncpy(
@@ -163,12 +159,17 @@ static int cargarCurso(cJSON *objetoCurso,
 
     curso->nombre[LEN_NOMBRE - 1] = '\0';
 
+    strncpy(
+        curso->area,
+        area->valuestring,
+        LEN_AREA - 1
+    );
+
+    curso->area[LEN_AREA - 1] = '\0';
 
     curso->creditos = creditos->valueint;
     curso->semestre = semestre;
-
-
-    
+ 
     //Inicializar contadores
     
     curso->cantidadCarreras = 0;
@@ -178,9 +179,7 @@ static int cargarCurso(cJSON *objetoCurso,
 
     curso->tieneChoque = 0;
     curso->puedeMatricular = 0;
-
-
-    
+ 
     //Carreras
     
     cJSON *item;
@@ -206,11 +205,8 @@ static int cargarCurso(cJSON *objetoCurso,
 
         curso->cantidadCarreras++;
     }
-
-
-    
-    //Requisitos
-    
+  
+    //Requisitos   
     cJSON_ArrayForEach(item, requisitos)
     {
         if (curso->cantidadRequisitos >= MAX_REQUISITOS) {
@@ -232,7 +228,6 @@ static int cargarCurso(cJSON *objetoCurso,
 
         curso->cantidadRequisitos++;
     }
-
 
     /*
      * Correquisitos
@@ -258,7 +253,6 @@ static int cargarCurso(cJSON *objetoCurso,
 
         curso->cantidadCorrequisitos++;
     }
-
 
     /*
      * Grupos
@@ -286,7 +280,6 @@ static int cargarCurso(cJSON *objetoCurso,
         curso->cantidadGrupos++;
     }
 
-
     return 0;
 }
 
@@ -303,10 +296,7 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
 
     catalogo->cantidadCursos = 0;
 
-
-    /*
-     * Abrir archivo
-     */
+    //Abrir archivo
     archivo = fopen(nombreArchivo, "rb");
 
     if (archivo == NULL) {
@@ -317,10 +307,7 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
         return -1;
     }
 
-
-    /*
-     * Obtener tamaño del archivo
-     */
+    //Obtener tamaño del archivo
     fseek(archivo, 0, SEEK_END);
 
     tamanio = ftell(archivo);
@@ -332,10 +319,7 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
 
     rewind(archivo);
 
-
-    /*
-     * Reservar memoria para el contenido
-     */
+    //Reservar memoria para el contenido
     contenido = malloc((size_t)tamanio + 1);
 
     if (contenido == NULL) {
@@ -348,9 +332,7 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
     }
 
 
-    /*
-     * Leer archivo completo
-     */
+    //Leer archivo completo
     size_t bytesLeidos = fread(
         contenido,
         1,
@@ -362,10 +344,7 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
 
     fclose(archivo);
 
-
-    /*
-     * Convertir texto a objeto JSON
-     */
+    //Convertir texto a objeto JSON
     raiz = cJSON_Parse(contenido);
 
     free(contenido);
@@ -378,10 +357,7 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
         return -1;
     }
 
-
-    /*
-     * Buscar "plan_estudios"
-     */
+    //Buscar "plan_estudios"
     planEstudios = cJSON_GetObjectItem(
         raiz,
         "plan_estudios"
@@ -398,9 +374,7 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
     }
 
 
-    /*
-     * Recorrer semestres
-     */
+    //Recorrer semestres
     cJSON_ArrayForEach(semestreJSON, planEstudios)
     {
         cJSON *numeroSemestre;
@@ -426,11 +400,9 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
         }
 
         semestre = numeroSemestre->valueint;
-
-
-        
+ 
         //Recorrer cursos del semestre
-         
+     
         cJSON_ArrayForEach(cursoJSON, cursosJSON)
         {
             if (catalogo->cantidadCursos >= MAX_CURSOS) {
@@ -440,7 +412,6 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
 
                 break;
             }
-
 
             if (cargarCurso(
                     cursoJSON,
@@ -461,8 +432,6 @@ int cargarCatalogo(const char *nombreArchivo,Catalogo *catalogo)
             catalogo->cantidadCursos++;
         }
     }
-
     cJSON_Delete(raiz);
-
     return 0;
 }
