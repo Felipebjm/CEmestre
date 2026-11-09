@@ -5,6 +5,7 @@
 (struct Curso
   ([codigo : String]
    [nombre : String]
+   [area : String]
    [creditos : Integer]
    [semestre : Integer]
    [carreras : (Listof String)]
