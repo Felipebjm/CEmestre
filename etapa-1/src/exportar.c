@@ -39,6 +39,7 @@ static cJSON *serializarCurso(const Curso *curso) {
 
     cJSON_AddStringToObject(objetoCurso, "codigo", curso->codigo);
     cJSON_AddStringToObject(objetoCurso, "nombre", curso->nombre);
+    cJSON_AddStringToObject(objetoCurso, "area", curso->area);
     cJSON_AddNumberToObject(objetoCurso, "creditos", curso->creditos);
     cJSON_AddNumberToObject(objetoCurso, "semestre", curso->semestre);
 
