@@ -17,6 +17,7 @@
 #define LEN_NOMBRE    80
 #define LEN_PROFESOR  60
 #define LEN_CARRERA   60
+#define LEN_AREA      50
 
 /* Días de la semana usados en los horarios */
 #define MAX_DIA       5   

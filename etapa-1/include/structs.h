@@ -21,6 +21,7 @@ typedef struct {
 typedef struct {
     char codigo[LEN_CODIGO];
     char nombre[LEN_NOMBRE];
+    char area[LEN_AREA];
     char carreras[MAX_CARRERAS][LEN_CARRERA];
     int cantidadCarreras;
     int creditos;
