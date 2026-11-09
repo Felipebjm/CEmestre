@@ -2,6 +2,7 @@
 
 (require "tipos.rkt")
 (require racket/string)
+(require typed/json)
 
 (provide exportarCombinaciones
          exportarCombinacionesAArchivo)
@@ -27,6 +28,14 @@
    "{\"curso\":\""
    (Curso-codigo curso)
    "\","
+
+   "\"area\":"
+   (jsexpr->string (Curso-area curso))
+   ","
+
+   "\"nombre\":"
+   (jsexpr->string (Curso-nombre curso))
+   ","
 
    "\"grupo\":"
    (number->string

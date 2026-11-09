@@ -55,6 +55,7 @@
   (Curso
  (cast (hash-ref h 'codigo) String)
  (cast (hash-ref h 'nombre) String)
+ (cast (hash-ref h 'area) String)
  (cast (hash-ref h 'creditos) Integer)
  0
  (cast (hash-ref h 'carreras) (Listof String))
