@@ -13,39 +13,38 @@
                     ]
                 },
                 {
-                    "curso": "CI1106",
-                    "area": "humanidades",
-                    "nombre": "comunicación escrita",
-                    "grupo": 3,
-                    "creditos": 2,
-                    "carreras": [
-                        "ME"
-                    ]
-                },
-                {
-                    "curso": "FI1101",
-                    "area": "ciencias_naturales",
-                    "nombre": "física general i",
-                    "grupo": 9,
-                    "creditos": 3,
-                    "carreras": [
-                        "CE",
-                        "ME"
-                    ]
-                },
-                {
-                    "curso": "MA1103",
-                    "area": "ciencias_naturales",
-                    "nombre": "cálculo y álgebra lineal",
-                    "grupo": 11,
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 4,
                     "creditos": 4,
                     "carreras": [
-                        "CE",
-                        "ME"
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 1,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
                     ]
                 }
             ],
-            "creditos_totales": 11
+            "creditos_totales": 14
         },
         {
             "selecciones": [
@@ -60,39 +59,38 @@
                     ]
                 },
                 {
-                    "curso": "CI1106",
-                    "area": "humanidades",
-                    "nombre": "comunicación escrita",
-                    "grupo": 3,
-                    "creditos": 2,
-                    "carreras": [
-                        "ME"
-                    ]
-                },
-                {
-                    "curso": "FI1101",
-                    "area": "ciencias_naturales",
-                    "nombre": "física general i",
-                    "grupo": 5,
-                    "creditos": 3,
-                    "carreras": [
-                        "CE",
-                        "ME"
-                    ]
-                },
-                {
-                    "curso": "MA1103",
-                    "area": "ciencias_naturales",
-                    "nombre": "cálculo y álgebra lineal",
-                    "grupo": 11,
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 4,
                     "creditos": 4,
                     "carreras": [
-                        "CE",
-                        "ME"
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
                     ]
                 }
             ],
-            "creditos_totales": 11
+            "creditos_totales": 14
         },
         {
             "selecciones": [
@@ -107,39 +105,268 @@
                     ]
                 },
                 {
-                    "curso": "CI1106",
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 4,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 1,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
+                    ]
+                }
+            ],
+            "creditos_totales": 14
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
                     "area": "humanidades",
-                    "nombre": "comunicación escrita",
-                    "grupo": 3,
+                    "nombre": "inglés básico",
+                    "grupo": 1,
                     "creditos": 2,
                     "carreras": [
                         "ME"
                     ]
                 },
                 {
-                    "curso": "FI1101",
-                    "area": "ciencias_naturales",
-                    "nombre": "física general i",
-                    "grupo": 5,
-                    "creditos": 3,
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 4,
+                    "creditos": 4,
                     "carreras": [
-                        "CE",
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
+                    ]
+                }
+            ],
+            "creditos_totales": 14
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
                         "ME"
                     ]
                 },
                 {
-                    "curso": "MA1103",
-                    "area": "ciencias_naturales",
-                    "nombre": "cálculo y álgebra lineal",
-                    "grupo": 9,
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 2,
                     "creditos": 4,
                     "carreras": [
-                        "CE",
-                        "ME"
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 1,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
                     ]
                 }
             ],
-            "creditos_totales": 11
+            "creditos_totales": 14
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
+                    ]
+                }
+            ],
+            "creditos_totales": 14
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 1,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
+                    ]
+                }
+            ],
+            "creditos_totales": 14
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
+                    ]
+                }
+            ],
+            "creditos_totales": 14
         },
         {
             "selecciones": [
@@ -154,39 +381,38 @@
                     ]
                 },
                 {
-                    "curso": "CI1106",
-                    "area": "humanidades",
-                    "nombre": "comunicación escrita",
-                    "grupo": 1,
-                    "creditos": 2,
-                    "carreras": [
-                        "ME"
-                    ]
-                },
-                {
-                    "curso": "FI1101",
-                    "area": "ciencias_naturales",
-                    "nombre": "física general i",
-                    "grupo": 5,
-                    "creditos": 3,
-                    "carreras": [
-                        "CE",
-                        "ME"
-                    ]
-                },
-                {
-                    "curso": "MA1103",
-                    "area": "ciencias_naturales",
-                    "nombre": "cálculo y álgebra lineal",
-                    "grupo": 11,
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 4,
                     "creditos": 4,
                     "carreras": [
-                        "CE",
-                        "ME"
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 1,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
                     ]
                 }
             ],
-            "creditos_totales": 11
+            "creditos_totales": 14
         },
         {
             "selecciones": [
@@ -201,39 +427,130 @@
                     ]
                 },
                 {
-                    "curso": "CI1106",
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 4,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
+                    ]
+                }
+            ],
+            "creditos_totales": 14
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
                     "area": "humanidades",
-                    "nombre": "comunicación escrita",
-                    "grupo": 3,
+                    "nombre": "inglés básico",
+                    "grupo": 2,
                     "creditos": 2,
                     "carreras": [
                         "ME"
                     ]
                 },
                 {
-                    "curso": "FI1101",
-                    "area": "ciencias_naturales",
-                    "nombre": "física general i",
-                    "grupo": 5,
-                    "creditos": 3,
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 2,
+                    "creditos": 4,
                     "carreras": [
-                        "CE",
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 1,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
+                    ]
+                }
+            ],
+            "creditos_totales": 14
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 2,
+                    "creditos": 2,
+                    "carreras": [
                         "ME"
                     ]
                 },
                 {
-                    "curso": "MA1103",
-                    "area": "ciencias_naturales",
-                    "nombre": "cálculo y álgebra lineal",
-                    "grupo": 11,
+                    "curso": "EL2113",
+                    "area": "electronica",
+                    "nombre": "circuitos eléctricos en corriente continua",
+                    "grupo": 2,
                     "creditos": 4,
                     "carreras": [
-                        "CE",
-                        "ME"
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2104",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo superior",
+                    "grupo": 7,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE"
+                    ]
+                },
+                {
+                    "curso": "MA2105",
+                    "area": "ciencias_naturales",
+                    "nombre": "ecuaciones diferenciales",
+                    "grupo": 2,
+                    "creditos": 4,
+                    "carreras": [
+                        "ME",
+                        "CE"
                     ]
                 }
             ],
-            "creditos_totales": 11
+            "creditos_totales": 14
         }
     ]
 }

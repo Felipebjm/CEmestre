@@ -512,7 +512,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CM1103",
 			"nombre":	"introducción a la ciencia e ingeniería de los materiales",
@@ -524,7 +524,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	false,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"MI2101",
 			"nombre":	"dibujo técnico",
@@ -571,7 +571,7 @@
 			"requisitos":	[],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CE1103",
 			"nombre":	"algoritmos y estructuras de datos i",
@@ -815,7 +815,7 @@
 			"requisitos":	["MA1102"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"FI1201",
 			"nombre":	"laboratorio física general i",
@@ -862,7 +862,7 @@
 			"requisitos":	[],
 			"correquisitos":	["FI1101"],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"MA1103",
 			"nombre":	"cálculo y álgebra lineal",
@@ -925,7 +925,7 @@
 			"requisitos":	["MA1102"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"SE1400",
 			"nombre":	"actividad cultural-deportiva",
@@ -1004,7 +1004,7 @@
 			"requisitos":	["MA0101"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CI1107",
 			"nombre":	"comunicación oral",
@@ -1145,7 +1145,7 @@
 			"requisitos":	["QU1102", "QU1106"],
 			"correquisitos":	["QU1107"],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"QU1107",
 			"nombre":	"química básica II",
@@ -1212,7 +1212,7 @@
 			"requisitos":	["QU1102", "QU1106"],
 			"correquisitos":	["QU1104"],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CE2103",
 			"nombre":	"algoritmos y estructuras de datos II",
@@ -1334,7 +1334,7 @@
 			"requisitos":	["FI1101", "MA1102"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"FH1000",
 			"nombre":	"centros de formación humanística",
@@ -1523,7 +1523,7 @@
 			"requisitos":	["MA1103"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"CI1231",
 			"nombre":	"inglés II",
@@ -1690,7 +1690,7 @@
 			"requisitos":	["CE2103"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	true
+			"puedeMatricular":	false
 		}, {
 			"codigo":	"CE2201",
 			"nombre":	"laboratorio de circuitos eléctricos",
@@ -1716,7 +1716,7 @@
 			"requisitos":	["FI1202"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"EL2114",
 			"nombre":	"circuitos eléctricos en corriente alterna",
@@ -1908,7 +1908,7 @@
 			"requisitos":	["FI1102"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"CM2401",
 			"nombre":	"metalurgia física",
@@ -1927,7 +1927,7 @@
 			"requisitos":	["CM2103"],
 			"correquisitos":	["CM3103"],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"CM2402",
 			"nombre":	"laboratorio de metalurgia física",
@@ -1967,7 +1967,7 @@
 			"requisitos":	["CM1103"],
 			"correquisitos":	["CM2401"],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"CM3103",
 			"nombre":	"termodinámica de materiales",
@@ -1986,7 +1986,7 @@
 			"requisitos":	["CM2103"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"MA2105",
 			"nombre":	"ecuaciones diferenciales",
@@ -2049,7 +2049,7 @@
 			"requisitos":	["MA1103"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"MI2106",
 			"nombre":	"estática",
@@ -2096,7 +2096,7 @@
 			"requisitos":	["FI1101", "FI1201"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"MI3124",
 			"nombre":	"dibujo industrial",
@@ -2143,7 +2143,7 @@
 			"requisitos":	["MI2101"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"CE1107",
 			"nombre":	"fundamentos de arquitectura de computadores",
@@ -2200,7 +2200,7 @@
 			"requisitos":	["CE1106"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"CE3201",
 			"nombre":	"taller de diseño digital",
@@ -2330,7 +2330,7 @@
 			"requisitos":	["QU2403", "QU2404"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"CS2303",
 			"nombre":	"relaciones laborales",
@@ -2436,7 +2436,7 @@
 			"requisitos":	["FI1102", "FI1202"],
 			"correquisitos":	[],
 			"tieneChoque":	true,
-			"puedeMatricular":	false
+			"puedeMatricular":	true
 		}, {
 			"codigo":	"SO2601",
 			"nombre":	"fundamentos de seguridad e higiene ocupacional",
@@ -2477,6 +2477,424 @@
 				}],
 			"requisitos":	["CE1107"],
 			"correquisitos":	["CE4301"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1109",
+			"nombre":	"circuitos analógicos",
+			"area":	"electronica",
+			"creditos":	4,
+			"semestre":	6,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"18:50"
+						}]
+				}],
+			"requisitos":	["EL2207", "SO4604"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1110",
+			"nombre":	"análisis de señales mixtas",
+			"area":	"electronica",
+			"creditos":	4,
+			"semestre":	6,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["EL2114", "MA2105"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE4301",
+			"nombre":	"arquitectura de computadores i",
+			"area":	"electronica",
+			"creditos":	4,
+			"semestre":	6,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["CE1107", "CE3201"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CI3203",
+			"nombre":	"inglés especializado para ingenierías en computadores",
+			"area":	"humanidades",
+			"creditos":	2,
+			"semestre":	6,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}],
+			"requisitos":	["CI0205"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	true
+		}, {
+			"codigo":	"CM3208",
+			"nombre":	"metrología para ingeniería",
+			"area":	"materiales_mecanica",
+			"creditos":	3,
+			"semestre":	6,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["MI3124", "PI2609"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM3601",
+			"nombre":	"mecánica de fluidos",
+			"area":	"ciencias_naturales",
+			"creditos":	3,
+			"semestre":	6,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["CM3103", "CM3207"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM3602",
+			"nombre":	"tecnología de aleaciones metálicas",
+			"area":	"materiales_mecanica",
+			"creditos":	3,
+			"semestre":	6,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["CM2401", "CM3103"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM3603",
+			"nombre":	"mecánica de materiales avanzada",
+			"area":	"materiales_mecanica",
+			"creditos":	3,
+			"semestre":	6,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"LUN",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["CM2401", "MI3115"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM4202",
+			"nombre":	"laboratorio tecnología aleaciones metálicas",
+			"area":	"materiales_mecanica",
+			"creditos":	2,
+			"semestre":	6,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"08:30",
+							"fin":	"11:20"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}, {
+					"numeroGrupo":	3,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"15:50"
+						}]
+				}],
+			"requisitos":	["CM2401", "CM3103"],
+			"correquisitos":	["CM3602"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM4305",
+			"nombre":	"tecnología de polímeros",
+			"area":	"materiales_mecanica",
+			"creditos":	2,
+			"semestre":	6,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"17:00",
+							"fin":	"19:50"
+						}]
+				}],
+			"requisitos":	["CM3501"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1111",
+			"nombre":	"análisis numérico para la ingeniería",
+			"area":	"ciencias_naturales",
+			"creditos":	3,
+			"semestre":	7,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"09:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["MA2105"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1112",
+			"nombre":	"taller de señales mixtas",
+			"area":	"electronica",
+			"creditos":	3,
+			"semestre":	7,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["CE1109", "CE1110"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE1116",
+			"nombre":	"diseño y calidad en productos tecnológicos",
+			"area":	"gestion",
+			"creditos":	4,
+			"semestre":	7,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"19:00",
+							"fin":	"20:50"
+						}]
+				}],
+			"requisitos":	["CE3101", "CE4301", "PI5516"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE4302",
+			"nombre":	"arquitectura de computadores ii",
+			"area":	"electronica",
+			"creditos":	4,
+			"semestre":	7,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}, {
+					"numeroGrupo":	2,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}, {
+							"dia":	"VIE",
+							"inicio":	"13:00",
+							"fin":	"14:50"
+						}]
+				}],
+			"requisitos":	["CE4301"],
+			"correquisitos":	["CE4303"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CE4303",
+			"nombre":	"principios de sistemas operativos",
+			"area":	"software",
+			"creditos":	4,
+			"semestre":	7,
+			"carreras":	["CE"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"JUE",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}, {
+							"dia":	"MAR",
+							"inicio":	"15:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["CE1108"],
+			"correquisitos":	[],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"AE5121",
+			"nombre":	"ingeniería económica",
+			"area":	"gestion",
+			"creditos":	3,
+			"semestre":	7,
+			"carreras":	["ME"],
+			"grupos":	[],
+			"requisitos":	["PI2609"],
+			"correquisitos":	[],
+			"tieneChoque":	false,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM3205",
+			"nombre":	"tecnología de maquinado",
+			"area":	"materiales_mecanica",
+			"creditos":	3,
+			"semestre":	7,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MIE",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["CM3208", "CM3602"],
+			"correquisitos":	["CM4307"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM4307",
+			"nombre":	"conformado de materiales",
+			"area":	"materiales_mecanica",
+			"creditos":	4,
+			"semestre":	7,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"MAR",
+							"inicio":	"13:00",
+							"fin":	"16:50"
+						}]
+				}],
+			"requisitos":	["CM3603"],
+			"correquisitos":	["CM3205"],
+			"tieneChoque":	true,
+			"puedeMatricular":	false
+		}, {
+			"codigo":	"CM4701",
+			"nombre":	"transferencia de calor y masa",
+			"area":	"ciencias_naturales",
+			"creditos":	3,
+			"semestre":	7,
+			"carreras":	["ME"],
+			"grupos":	[{
+					"numeroGrupo":	1,
+					"horario":	[{
+							"dia":	"VIE",
+							"inicio":	"07:30",
+							"fin":	"11:20"
+						}]
+				}],
+			"requisitos":	["CM3207", "CM3601"],
+			"correquisitos":	[],
 			"tieneChoque":	true,
 			"puedeMatricular":	false
 		}]

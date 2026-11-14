@@ -19,5 +19,5 @@ maximo_area(2).
 % Cursos incompatibles
 % incompatible(CodigoCurso1, CodigoCurso2)
 
-incompatible('CE1001', 'ME2001').
-incompatible('CE2002', 'ME3002').
+incompatible('MA2105', 'MA2104').
+incompatible('FI1102', 'MA2105').
