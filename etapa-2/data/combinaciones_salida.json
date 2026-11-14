@@ -1,1 +1,239 @@
-{"combinaciones":[{"selecciones":[{"curso":"CI0202","area":"humanidades","nombre":"inglés básico","grupo":1,"carreras":["ME"]},{"curso":"CI1106","area":"humanidades","nombre":"comunicación escrita","grupo":3,"carreras":["ME"]},{"curso":"FI1101","area":"ciencias_naturales","nombre":"física general i","grupo":9,"carreras":["CE","ME"]},{"curso":"MA1103","area":"ciencias_naturales","nombre":"cálculo y álgebra lineal","grupo":11,"carreras":["CE","ME"]}],"creditos_totales":11},{"selecciones":[{"curso":"CI0202","area":"humanidades","nombre":"inglés básico","grupo":1,"carreras":["ME"]},{"curso":"CI1106","area":"humanidades","nombre":"comunicación escrita","grupo":3,"carreras":["ME"]},{"curso":"FI1101","area":"ciencias_naturales","nombre":"física general i","grupo":5,"carreras":["CE","ME"]},{"curso":"MA1103","area":"ciencias_naturales","nombre":"cálculo y álgebra lineal","grupo":11,"carreras":["CE","ME"]}],"creditos_totales":11},{"selecciones":[{"curso":"CI0202","area":"humanidades","nombre":"inglés básico","grupo":1,"carreras":["ME"]},{"curso":"CI1106","area":"humanidades","nombre":"comunicación escrita","grupo":3,"carreras":["ME"]},{"curso":"FI1101","area":"ciencias_naturales","nombre":"física general i","grupo":5,"carreras":["CE","ME"]},{"curso":"MA1103","area":"ciencias_naturales","nombre":"cálculo y álgebra lineal","grupo":9,"carreras":["CE","ME"]}],"creditos_totales":11},{"selecciones":[{"curso":"CI0202","area":"humanidades","nombre":"inglés básico","grupo":2,"carreras":["ME"]},{"curso":"CI1106","area":"humanidades","nombre":"comunicación escrita","grupo":1,"carreras":["ME"]},{"curso":"FI1101","area":"ciencias_naturales","nombre":"física general i","grupo":5,"carreras":["CE","ME"]},{"curso":"MA1103","area":"ciencias_naturales","nombre":"cálculo y álgebra lineal","grupo":11,"carreras":["CE","ME"]}],"creditos_totales":11},{"selecciones":[{"curso":"CI0202","area":"humanidades","nombre":"inglés básico","grupo":2,"carreras":["ME"]},{"curso":"CI1106","area":"humanidades","nombre":"comunicación escrita","grupo":3,"carreras":["ME"]},{"curso":"FI1101","area":"ciencias_naturales","nombre":"física general i","grupo":5,"carreras":["CE","ME"]},{"curso":"MA1103","area":"ciencias_naturales","nombre":"cálculo y álgebra lineal","grupo":11,"carreras":["CE","ME"]}],"creditos_totales":11}]}
+{
+    "combinaciones": [
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "CI1106",
+                    "area": "humanidades",
+                    "nombre": "comunicación escrita",
+                    "grupo": 3,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "FI1101",
+                    "area": "ciencias_naturales",
+                    "nombre": "física general i",
+                    "grupo": 9,
+                    "creditos": 3,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "MA1103",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo y álgebra lineal",
+                    "grupo": 11,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                }
+            ],
+            "creditos_totales": 11
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "CI1106",
+                    "area": "humanidades",
+                    "nombre": "comunicación escrita",
+                    "grupo": 3,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "FI1101",
+                    "area": "ciencias_naturales",
+                    "nombre": "física general i",
+                    "grupo": 5,
+                    "creditos": 3,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "MA1103",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo y álgebra lineal",
+                    "grupo": 11,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                }
+            ],
+            "creditos_totales": 11
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "CI1106",
+                    "area": "humanidades",
+                    "nombre": "comunicación escrita",
+                    "grupo": 3,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "FI1101",
+                    "area": "ciencias_naturales",
+                    "nombre": "física general i",
+                    "grupo": 5,
+                    "creditos": 3,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "MA1103",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo y álgebra lineal",
+                    "grupo": 9,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                }
+            ],
+            "creditos_totales": 11
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 2,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "CI1106",
+                    "area": "humanidades",
+                    "nombre": "comunicación escrita",
+                    "grupo": 1,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "FI1101",
+                    "area": "ciencias_naturales",
+                    "nombre": "física general i",
+                    "grupo": 5,
+                    "creditos": 3,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "MA1103",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo y álgebra lineal",
+                    "grupo": 11,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                }
+            ],
+            "creditos_totales": 11
+        },
+        {
+            "selecciones": [
+                {
+                    "curso": "CI0202",
+                    "area": "humanidades",
+                    "nombre": "inglés básico",
+                    "grupo": 2,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "CI1106",
+                    "area": "humanidades",
+                    "nombre": "comunicación escrita",
+                    "grupo": 3,
+                    "creditos": 2,
+                    "carreras": [
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "FI1101",
+                    "area": "ciencias_naturales",
+                    "nombre": "física general i",
+                    "grupo": 5,
+                    "creditos": 3,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                },
+                {
+                    "curso": "MA1103",
+                    "area": "ciencias_naturales",
+                    "nombre": "cálculo y álgebra lineal",
+                    "grupo": 11,
+                    "creditos": 4,
+                    "carreras": [
+                        "CE",
+                        "ME"
+                    ]
+                }
+            ],
+            "creditos_totales": 11
+        }
+    ]
+}
