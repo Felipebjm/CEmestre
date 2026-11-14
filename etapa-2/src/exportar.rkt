@@ -44,6 +44,10 @@
 
    ","
 
+   "\"creditos\":"
+   (number->string (Curso-creditos curso))
+   ","
+
    "\"carreras\":"
    (carrerasAJson
     (Curso-carreras curso))
