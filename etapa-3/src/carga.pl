@@ -1,12 +1,16 @@
 :- module(carga, [
     cargar_combinaciones/1,
     cargar_combinaciones/2,
-    consultar_combinacion/2
+    consultar_combinacion/2,
+    combinacion/3,
+    curso/5
 ]).
 
 :- use_module(library(http/json)).
 :- use_module(library(lists)).
 
+:- dynamic combinacion/3.
+:- dynamic curso/5.
 
 
 cargar_combinaciones(Combinaciones) :-
@@ -17,7 +21,7 @@ cargar_combinaciones(Combinaciones) :-
     cargar_combinaciones(Ruta, Combinaciones).
 
 
-% Lee el JSON y convierte todas las combinaciones en terminos compuestos d
+% Lee el JSON, devuelve terminos compuestos y registra los mismos datos como hechos.
 
 cargar_combinaciones(Ruta, Combinaciones) :-
     setup_call_cleanup(
@@ -26,7 +30,21 @@ cargar_combinaciones(Ruta, Combinaciones) :-
         close(Stream)
     ),
     get_dict(combinaciones, Datos, ListaJSON),
-    convertir_combinaciones(ListaJSON, 1, Combinaciones).
+    convertir_combinaciones(ListaJSON, 1, Combinaciones),
+    transaction(registrar_hechos(Combinaciones)).
+
+% Los hechos representan la ultima carga exitosa. Cada curso distinto se
+% registra una vez, aunque aparezca en varias combinaciones.
+registrar_hechos(Combinaciones) :-
+    findall(Curso,
+            (member(combinacion(_, Cursos, _), Combinaciones),
+             member(Curso, Cursos)),
+            TodosLosCursos),
+    sort(TodosLosCursos, CursosDistintos),
+    retractall(combinacion(_, _, _)),
+    retractall(curso(_, _, _, _, _)),
+    forall(member(Combinacion, Combinaciones), assertz(Combinacion)),
+    forall(member(Curso, CursosDistintos), assertz(Curso)).
 
 
 % CONVERSION DE COMBINACIONES
