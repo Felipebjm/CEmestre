@@ -45,11 +45,17 @@ swipl -q -s etapa-3/src/main.pl
   | arte_deporte | 3 |
   | **Total** | **107** |
 
+- **Creditos de cursos compartidos en la regla de balance**
+
+  Los creditos de un curso compartido entre CE y ME se reparten en partes iguales entre sus carreras, por ejemplo MA2105 de 4 creditos le aporta 2 a cada una. Asi los porcentajes siempre suman 100%. Si se sumaran completos a ambas carreras, una combinacion solo de cursos compartidos quedaria en 100% para las dos y se rechazaria sin estar cargada hacia ninguna.
+
 - **Pares de cursos incompatibles**   
 
 - **Caso donde el orden de las reglas cambia la razón reportada**
 
 - **Caso limite real**
+
+  Una combinacion solo con cursos compartidos, como MA2105 y FI1101. Sumando los creditos completos quedaria en 100% para CE y ME y se rechazaria por balance. Con el reparto en partes iguales queda en 50% y 50%, y cumple con el maximo de 70%.
 
 ## Representación de datos y predicados principales
  
