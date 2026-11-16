@@ -6,9 +6,7 @@
     incompatible/2
 ]).
 
-% Porcentaje maximo de los creditos totales de una combinacion que puede
-% tener cada carrera. Un curso compartido reparte sus creditos en partes
-% iguales entre sus carreras.
+% Porcentaje maximo de creditos por carrera
 porcentaje_maximo('CE', 70).
 porcentaje_maximo('ME', 70).
 
