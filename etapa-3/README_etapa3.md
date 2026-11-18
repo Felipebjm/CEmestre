@@ -7,9 +7,27 @@ Esta etapa evalua las políticas dadas para aceptar o rechazar las combinaciones
 
 Desde la raíz del proyecto, ejecutar:
 
-swipl -q -s etapa-3/src/main.pl
+```
+swipl etapa-3/src/main.pl
+```
+
+Esto evalua todas las combinaciones de la etapa 2, imprime cuantas cumplen y cuantas se rechazan, y deja el resultado en `etapa-3/data/resultados.json`.
+
+Pruebas:
+
+```
+swipl etapa-3/test/testCarga.pl
+swipl etapa-3/test/testRazonExportar.pl
+```
 
 ## Arquitectura
+
+- `carga.pl`, lee el JSON de la etapa 2 y lo convierte a terminos compuestos.
+- `politicas.pl`, los parametros de las reglas como hechos.
+- `evaluador.pl`, las tres reglas de politica.
+- `razon.pl`, decide si una combinacion cumple y cual es la primera regla que viola.
+- `exportar.pl`, escribe los resultados en JSON.
+- `main.pl`, recorre todas las combinaciones, las evalua y exporta el resultado.
 
 ## Decisiones de diseño
 
