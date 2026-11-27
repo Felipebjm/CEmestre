@@ -1,7 +1,8 @@
 
 :- module(evaluador, [
     cumple_balance/1,
-    cumple_area/1
+    cumple_area/1,
+    cumple_incompatibilidad/1
 ]).
 
 :- use_module('politicas.pl').
@@ -48,4 +49,15 @@ cumple_area(combinacion(_, Cursos, _)) :-
                 Coincidencias),
         length(Coincidencias, Cantidad),
         Cantidad > Maximo
+    ).
+
+
+% Revisa que no se matriculen dos cursos incompatibles juntos.
+cumple_incompatibilidad(combinacion(_, Cursos, _)) :-
+    \+ (
+        incompatible(Codigo1, Codigo2),
+        member(curso(Curso1, _, _, _, _), Cursos),
+        mismo_valor(Curso1, Codigo1),
+        member(curso(Curso2, _, _, _, _), Cursos),
+        mismo_valor(Curso2, Codigo2)
     ).
