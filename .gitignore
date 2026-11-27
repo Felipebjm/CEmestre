@@ -69,3 +69,13 @@ Thumbs.db
 compiled/
 *.zo
 *.dep
+
+
+
+#C
+
+.vs/
+bin/
+obj/
+*.user
+*.suo
