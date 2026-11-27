@@ -96,7 +96,7 @@ test(json_de_salida) :-
     assertion(R1.id == 1),
     assertion(R1.cumple == true),
     assertion(R1.razon == null),
-    assertion(R1.pares == [_{curso:"CE1106", grupo:1},
+    assertion(R1.pares = [_{curso:"CE1106", grupo:1},
                            _{curso:"MI2101", grupo:1},
                            _{curso:"FI1101", grupo:5}]),
     assertion(R2.cumple == false),
