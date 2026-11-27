@@ -1,6 +1,7 @@
 
 :- module(evaluador, [
-    cumple_balance/1
+    cumple_balance/1,
+    cumple_area/1
 ]).
 
 :- use_module('politicas.pl').
@@ -34,4 +35,17 @@ cumple_balance(combinacion(_, Cursos, CreditosTotales)) :-
         porcentaje_maximo(Carrera, Maximo),
         (creditos_carrera(Cursos, Carrera, CreditosCarrera),
          CreditosCarrera * 100 =< CreditosTotales * Maximo)
+    ).
+
+
+% Revisa que no haya mas cursos por area de los permitidos.
+cumple_area(combinacion(_, Cursos, _)) :-
+    maximo_area(Maximo),
+    \+ (
+        member(curso(_, _, _, _, Area), Cursos),
+        findall(1,
+                member(curso(_, _, _, _, Area), Cursos),
+                Coincidencias),
+        length(Coincidencias, Cantidad),
+        Cantidad > Maximo
     ).
